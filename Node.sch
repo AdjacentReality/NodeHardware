@@ -6695,6 +6695,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$6" library="adjacent-reality" deviceset="LSM303DLHC" device=""/>
 <part name="L1" library="adjacent-reality" deviceset="INDUCTOR" device="" value="6.8uH"/>
 <part name="L2" library="adjacent-reality" deviceset="INDUCTOR" device="" value="6.8uH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -6819,6 +6820,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="NAME" x="139.7" y="190.5" size="1.778" layer="95"/>
 <attribute name="VALUE" x="149.86" y="190.5" size="1.778" layer="96"/>
 </instance>
+<instance part="JP1" gate="G$1" x="63.5" y="165.1" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -6982,7 +6984,8 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="GND5" gate="1" pin="GND"/>
 <junction x="55.88" y="157.48"/>
 <wire x1="38.1" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="157.48" x2="71.12" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="157.48" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
@@ -7045,6 +7048,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="BAT" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="180.34" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
 <junction x="215.9" y="157.48"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="162.56" x2="71.12" y2="157.48" width="0.1524" layer="91"/>
+<junction x="71.12" y="157.48"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -7855,6 +7861,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="POWER" gate="G$1" pin="3"/>
 <pinref part="U$5" gate="G$1" pin="!ON"/>
 <wire x1="71.12" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="165.1" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
+<junction x="71.12" y="172.72"/>
 </segment>
 </net>
 <net name="PWR_ON2" class="0">

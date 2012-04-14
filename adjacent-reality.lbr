@@ -126,7 +126,9 @@
 &lt;br&gt;
 Package used by L3G4200D 3-axis gyro&lt;br&gt;
 &lt;br&gt;
-&lt;B&gt;***UNPROVEN***&lt;/b&gt;</description>
+&lt;B&gt;***UNPROVEN***&lt;/b&gt;
+
+CC-BY-SA from SparkFun?</description>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
@@ -759,6 +761,216 @@ Package used by L3G4200D 3-axis gyro&lt;br&gt;
 <text x="-1.27" y="2.794" size="0.4064" layer="25">&gt;Name</text>
 <text x="-1.27" y="-2.794" size="0.4064" layer="27" align="top-left">&gt;Value</text>
 </package>
+<package name="TQFP44">
+<description>&lt;b&gt;44-lead Thin Quad Flat Package&lt;/b&gt;</description>
+<wire x1="-4.8" y1="4.4" x2="-4.4" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="4.8" x2="4.4" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="4.8" x2="4.8" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="4.8" y1="4.4" x2="4.8" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="4.8" y1="-4.4" x2="4.4" y2="-4.8" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="-4.8" x2="-4.4" y2="-4.8" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="-4.8" x2="-4.8" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="-4.8" y1="-4.4" x2="-4.8" y2="4.4" width="0.2032" layer="21"/>
+<circle x="-4" y="4" radius="0.2827" width="0.254" layer="21"/>
+<smd name="1" x="-5.8" y="4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="2" x="-5.8" y="3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="3" x="-5.8" y="2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="4" x="-5.8" y="1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="5" x="-5.8" y="0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="6" x="-5.8" y="0" dx="1.5" dy="0.5" layer="1"/>
+<smd name="7" x="-5.8" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="8" x="-5.8" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="9" x="-5.8" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="10" x="-5.8" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="11" x="-5.8" y="-4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="12" x="-4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="13" x="-3.2" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="14" x="-2.4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="15" x="-1.6" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="16" x="-0.8" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="17" x="0" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="18" x="0.8" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="19" x="1.6" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="20" x="2.4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="21" x="3.2" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="22" x="4" y="-5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="23" x="5.8" y="-4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="24" x="5.8" y="-3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="25" x="5.8" y="-2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="26" x="5.8" y="-1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="27" x="5.8" y="-0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="28" x="5.8" y="0" dx="1.5" dy="0.5" layer="1"/>
+<smd name="29" x="5.8" y="0.8" dx="1.5" dy="0.5" layer="1"/>
+<smd name="30" x="5.8" y="1.6" dx="1.5" dy="0.5" layer="1"/>
+<smd name="31" x="5.8" y="2.4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="32" x="5.8" y="3.2" dx="1.5" dy="0.5" layer="1"/>
+<smd name="33" x="5.8" y="4" dx="1.5" dy="0.5" layer="1"/>
+<smd name="34" x="4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="35" x="3.2" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="36" x="2.4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="37" x="1.6" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="38" x="0.8" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="39" x="0" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="40" x="-0.8" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="41" x="-1.6" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="42" x="-2.4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="43" x="-3.2" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<smd name="44" x="-4" y="5.8" dx="0.5" dy="1.5" layer="1"/>
+<text x="-3.81" y="6.985" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-8.7551" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-6.1001" y1="3.8001" x2="-4.95" y2="4.1999" layer="51"/>
+<rectangle x1="-6.1001" y1="3" x2="-4.95" y2="3.4" layer="51"/>
+<rectangle x1="-6.1001" y1="2.1999" x2="-4.95" y2="2.5999" layer="51"/>
+<rectangle x1="-6.1001" y1="1.4" x2="-4.95" y2="1.8001" layer="51"/>
+<rectangle x1="-6.1001" y1="0.5999" x2="-4.95" y2="1" layer="51"/>
+<rectangle x1="-6.1001" y1="-0.1999" x2="-4.95" y2="0.1999" layer="51"/>
+<rectangle x1="-6.1001" y1="-1" x2="-4.95" y2="-0.5999" layer="51"/>
+<rectangle x1="-6.1001" y1="-1.8001" x2="-4.95" y2="-1.4" layer="51"/>
+<rectangle x1="-6.1001" y1="-2.5999" x2="-4.95" y2="-2.1999" layer="51"/>
+<rectangle x1="-6.1001" y1="-3.4" x2="-4.95" y2="-3" layer="51"/>
+<rectangle x1="-6.1001" y1="-4.1999" x2="-4.95" y2="-3.8001" layer="51"/>
+<rectangle x1="-4.1999" y1="-6.1001" x2="-3.8001" y2="-4.95" layer="51"/>
+<rectangle x1="-3.4" y1="-6.1001" x2="-3" y2="-4.95" layer="51"/>
+<rectangle x1="-2.5999" y1="-6.1001" x2="-2.1999" y2="-4.95" layer="51"/>
+<rectangle x1="-1.8001" y1="-6.1001" x2="-1.4" y2="-4.95" layer="51"/>
+<rectangle x1="-1" y1="-6.1001" x2="-0.5999" y2="-4.95" layer="51"/>
+<rectangle x1="-0.1999" y1="-6.1001" x2="0.1999" y2="-4.95" layer="51"/>
+<rectangle x1="0.5999" y1="-6.1001" x2="1" y2="-4.95" layer="51"/>
+<rectangle x1="1.4" y1="-6.1001" x2="1.8001" y2="-4.95" layer="51"/>
+<rectangle x1="2.1999" y1="-6.1001" x2="2.5999" y2="-4.95" layer="51"/>
+<rectangle x1="3" y1="-6.1001" x2="3.4" y2="-4.95" layer="51"/>
+<rectangle x1="3.8001" y1="-6.1001" x2="4.1999" y2="-4.95" layer="51"/>
+<rectangle x1="4.95" y1="-4.1999" x2="6.1001" y2="-3.8001" layer="51"/>
+<rectangle x1="4.95" y1="-3.4" x2="6.1001" y2="-3" layer="51"/>
+<rectangle x1="4.95" y1="-2.5999" x2="6.1001" y2="-2.1999" layer="51"/>
+<rectangle x1="4.95" y1="-1.8001" x2="6.1001" y2="-1.4" layer="51"/>
+<rectangle x1="4.95" y1="-1" x2="6.1001" y2="-0.5999" layer="51"/>
+<rectangle x1="4.95" y1="-0.1999" x2="6.1001" y2="0.1999" layer="51"/>
+<rectangle x1="4.95" y1="0.5999" x2="6.1001" y2="1" layer="51"/>
+<rectangle x1="4.95" y1="1.4" x2="6.1001" y2="1.8001" layer="51"/>
+<rectangle x1="4.95" y1="2.1999" x2="6.1001" y2="2.5999" layer="51"/>
+<rectangle x1="4.95" y1="3" x2="6.1001" y2="3.4" layer="51"/>
+<rectangle x1="4.95" y1="3.8001" x2="6.1001" y2="4.1999" layer="51"/>
+<rectangle x1="3.8001" y1="4.95" x2="4.1999" y2="6.1001" layer="51"/>
+<rectangle x1="3" y1="4.95" x2="3.4" y2="6.1001" layer="51"/>
+<rectangle x1="2.1999" y1="4.95" x2="2.5999" y2="6.1001" layer="51"/>
+<rectangle x1="1.4" y1="4.95" x2="1.8001" y2="6.1001" layer="51"/>
+<rectangle x1="0.5999" y1="4.95" x2="1" y2="6.1001" layer="51"/>
+<rectangle x1="-0.1999" y1="4.95" x2="0.1999" y2="6.1001" layer="51"/>
+<rectangle x1="-1" y1="4.95" x2="-0.5999" y2="6.1001" layer="51"/>
+<rectangle x1="-1.8001" y1="4.95" x2="-1.4" y2="6.1001" layer="51"/>
+<rectangle x1="-2.5999" y1="4.95" x2="-2.1999" y2="6.1001" layer="51"/>
+<rectangle x1="-3.4" y1="4.95" x2="-3" y2="6.1001" layer="51"/>
+<rectangle x1="-4.1999" y1="4.95" x2="-3.8001" y2="6.1001" layer="51"/>
+</package>
+<package name="MLF44-TH">
+<description>&lt;b&gt;44M1&lt;/b&gt; Micro Lead Frame package (MLF)&lt;p&gt;
+Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</description>
+<wire x1="-3.4" y1="2.8" x2="-3.4" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-2.8" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-2.8" y1="3.4" x2="2.8" y2="3.4" width="0.254" layer="51"/>
+<wire x1="2.8" y1="3.4" x2="3.4" y2="3.4" width="0.254" layer="21"/>
+<wire x1="3.4" y1="3.4" x2="3.4" y2="2.8" width="0.254" layer="21"/>
+<wire x1="3.4" y1="2.8" x2="3.4" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="3.4" y1="-2.8" x2="3.4" y2="-3.4" width="0.254" layer="21"/>
+<wire x1="3.4" y1="-3.4" x2="2.8" y2="-3.4" width="0.254" layer="21"/>
+<wire x1="2.8" y1="-3.4" x2="-2.8" y2="-3.4" width="0.254" layer="51"/>
+<wire x1="-2.8" y1="-3.4" x2="-3.4" y2="-3.4" width="0.254" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-2.8" width="0.254" layer="21"/>
+<wire x1="-3.4" y1="-2.8" x2="-3.4" y2="2.8" width="0.254" layer="51"/>
+<circle x="-2.25" y="2.25" radius="0.1581" width="0.254" layer="21"/>
+<smd name="1" x="-3.325" y="2.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="2" x="-3.325" y="2" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="3" x="-3.325" y="1.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="4" x="-3.325" y="1" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="5" x="-3.325" y="0.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="6" x="-3.325" y="0" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="7" x="-3.325" y="-0.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="8" x="-3.325" y="-1" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="9" x="-3.325" y="-1.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="10" x="-3.325" y="-2" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="11" x="-3.325" y="-2.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="12" x="-2.5" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="13" x="-2" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="14" x="-1.5" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="15" x="-1" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="16" x="-0.5" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="17" x="0" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="18" x="0.5" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="19" x="1" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="20" x="1.5" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="21" x="2" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="22" x="2.5" y="-3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="23" x="3.325" y="-2.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="24" x="3.325" y="-2" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="25" x="3.325" y="-1.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="26" x="3.325" y="-1" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="27" x="3.325" y="-0.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="28" x="3.325" y="0" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="29" x="3.325" y="0.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="30" x="3.325" y="1" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="31" x="3.325" y="1.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="32" x="3.325" y="2" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="33" x="3.325" y="2.5" dx="0.7" dy="0.3" layer="1" roundness="50"/>
+<smd name="34" x="2.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="35" x="2" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="36" x="1.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="37" x="1" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="38" x="0.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="39" x="0" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="40" x="-0.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="41" x="-1" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="42" x="-1.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="43" x="-2" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="44" x="-2.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
+<smd name="TH" x="0" y="0" dx="5" dy="5" layer="1" roundness="10"/>
+<text x="-2.5" y="1" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.75" y="-1.5" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.5" y1="2.375" x2="-3" y2="2.625" layer="51"/>
+<rectangle x1="-3.5" y1="1.875" x2="-3" y2="2.125" layer="51"/>
+<rectangle x1="-3.5" y1="1.375" x2="-3" y2="1.625" layer="51"/>
+<rectangle x1="-3.5" y1="0.875" x2="-3" y2="1.125" layer="51"/>
+<rectangle x1="-3.5" y1="0.375" x2="-3" y2="0.625" layer="51"/>
+<rectangle x1="-3.5" y1="-0.125" x2="-3" y2="0.125" layer="51"/>
+<rectangle x1="-3.5" y1="-0.625" x2="-3" y2="-0.375" layer="51"/>
+<rectangle x1="-3.5" y1="-1.125" x2="-3" y2="-0.875" layer="51"/>
+<rectangle x1="-3.5" y1="-1.625" x2="-3" y2="-1.375" layer="51"/>
+<rectangle x1="-3.5" y1="-2.125" x2="-3" y2="-1.875" layer="51"/>
+<rectangle x1="-3.5" y1="-2.625" x2="-3" y2="-2.375" layer="51"/>
+<rectangle x1="-2.625" y1="-3.5" x2="-2.375" y2="-3" layer="51"/>
+<rectangle x1="-2.125" y1="-3.5" x2="-1.875" y2="-3" layer="51"/>
+<rectangle x1="-1.625" y1="-3.5" x2="-1.375" y2="-3" layer="51"/>
+<rectangle x1="-1.125" y1="-3.5" x2="-0.875" y2="-3" layer="51"/>
+<rectangle x1="-0.625" y1="-3.5" x2="-0.375" y2="-3" layer="51"/>
+<rectangle x1="-0.125" y1="-3.5" x2="0.125" y2="-3" layer="51"/>
+<rectangle x1="0.375" y1="-3.5" x2="0.625" y2="-3" layer="51"/>
+<rectangle x1="0.875" y1="-3.5" x2="1.125" y2="-3" layer="51"/>
+<rectangle x1="1.375" y1="-3.5" x2="1.625" y2="-3" layer="51"/>
+<rectangle x1="1.875" y1="-3.5" x2="2.125" y2="-3" layer="51"/>
+<rectangle x1="2.375" y1="-3.5" x2="2.625" y2="-3" layer="51"/>
+<rectangle x1="3" y1="-2.625" x2="3.5" y2="-2.375" layer="51"/>
+<rectangle x1="3" y1="-2.125" x2="3.5" y2="-1.875" layer="51"/>
+<rectangle x1="3" y1="-1.625" x2="3.5" y2="-1.375" layer="51"/>
+<rectangle x1="3" y1="-1.125" x2="3.5" y2="-0.875" layer="51"/>
+<rectangle x1="3" y1="-0.625" x2="3.5" y2="-0.375" layer="51"/>
+<rectangle x1="3" y1="-0.125" x2="3.5" y2="0.125" layer="51"/>
+<rectangle x1="3" y1="0.375" x2="3.5" y2="0.625" layer="51"/>
+<rectangle x1="3" y1="0.875" x2="3.5" y2="1.125" layer="51"/>
+<rectangle x1="3" y1="1.375" x2="3.5" y2="1.625" layer="51"/>
+<rectangle x1="3" y1="1.875" x2="3.5" y2="2.125" layer="51"/>
+<rectangle x1="3" y1="2.375" x2="3.5" y2="2.625" layer="51"/>
+<rectangle x1="2.375" y1="3" x2="2.625" y2="3.5" layer="51"/>
+<rectangle x1="1.875" y1="3" x2="2.125" y2="3.5" layer="51"/>
+<rectangle x1="1.375" y1="3" x2="1.625" y2="3.5" layer="51"/>
+<rectangle x1="0.875" y1="3" x2="1.125" y2="3.5" layer="51"/>
+<rectangle x1="0.375" y1="3" x2="0.625" y2="3.5" layer="51"/>
+<rectangle x1="-0.125" y1="3" x2="0.125" y2="3.5" layer="51"/>
+<rectangle x1="-0.625" y1="3" x2="-0.375" y2="3.5" layer="51"/>
+<rectangle x1="-1.125" y1="3" x2="-0.875" y2="3.5" layer="51"/>
+<rectangle x1="-1.625" y1="3" x2="-1.375" y2="3.5" layer="51"/>
+<rectangle x1="-2.125" y1="3" x2="-1.875" y2="3.5" layer="51"/>
+<rectangle x1="-2.625" y1="3" x2="-2.375" y2="3.5" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L3G4200D">
@@ -1207,6 +1419,58 @@ Package used by L3G4200D 3-axis gyro&lt;br&gt;
 <text x="-10.16" y="13.208" size="1.9304" layer="95">&gt;Name</text>
 <text x="-10.16" y="-13.208" size="1.9304" layer="96" align="top-left">&gt;Value</text>
 </symbol>
+<symbol name="XMEGA16A4">
+<wire x1="-20.32" y1="40.64" x2="22.86" y2="40.64" width="0.254" layer="94"/>
+<wire x1="22.86" y1="40.64" x2="22.86" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-40.64" x2="-20.32" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-40.64" x2="-20.32" y2="40.64" width="0.254" layer="94"/>
+<text x="-20.32" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-20.32" y="41.91" size="1.778" layer="95">&gt;NAME</text>
+<pin name="PE0" x="-25.4" y="-38.1" length="middle"/>
+<pin name="PE1" x="-25.4" y="-35.56" length="middle"/>
+<pin name="PE2" x="-25.4" y="-33.02" length="middle"/>
+<pin name="PE3" x="-25.4" y="-30.48" length="middle"/>
+<pin name="PD7" x="27.94" y="-20.32" length="middle" rot="R180"/>
+<pin name="PD6" x="27.94" y="-22.86" length="middle" rot="R180"/>
+<pin name="PD5" x="27.94" y="-25.4" length="middle" rot="R180"/>
+<pin name="PD4" x="27.94" y="-27.94" length="middle" rot="R180"/>
+<pin name="PD3" x="27.94" y="-30.48" length="middle" rot="R180"/>
+<pin name="PD2" x="27.94" y="-33.02" length="middle" rot="R180"/>
+<pin name="PD1" x="27.94" y="-35.56" length="middle" rot="R180"/>
+<pin name="PD0" x="27.94" y="-38.1" length="middle" rot="R180"/>
+<pin name="PC7" x="27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="PC6" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="PC5" x="27.94" y="-2.54" length="middle" rot="R180"/>
+<pin name="PC4" x="27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="PC3" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC2" x="27.94" y="-10.16" length="middle" rot="R180"/>
+<pin name="PC1" x="27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="PC0" x="27.94" y="-15.24" length="middle" rot="R180"/>
+<pin name="PB3" x="27.94" y="15.24" length="middle" rot="R180"/>
+<pin name="PB2" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="PB1" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="PB0" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="PA6" x="27.94" y="35.56" length="middle" rot="R180"/>
+<pin name="PA7" x="27.94" y="38.1" length="middle" rot="R180"/>
+<pin name="PA5" x="27.94" y="33.02" length="middle" rot="R180"/>
+<pin name="PA4" x="27.94" y="30.48" length="middle" rot="R180"/>
+<pin name="PA3" x="27.94" y="27.94" length="middle" rot="R180"/>
+<pin name="PA2" x="27.94" y="25.4" length="middle" rot="R180"/>
+<pin name="PA1" x="27.94" y="22.86" length="middle" rot="R180"/>
+<pin name="PA0" x="27.94" y="20.32" length="middle" rot="R180"/>
+<pin name="AVCC" x="-25.4" y="22.86" length="middle" direction="pwr"/>
+<pin name="GND3" x="-25.4" y="7.62" visible="pad" length="middle" direction="pwr"/>
+<pin name="VCC2" x="-25.4" y="17.78" visible="pad" length="middle" direction="pwr"/>
+<pin name="PR0(XT2)" x="-25.4" y="-25.4" length="middle"/>
+<pin name="PR1(XT1)" x="-25.4" y="-20.32" length="middle"/>
+<pin name="VCC1" x="-25.4" y="15.24" visible="pad" length="middle" direction="pwr"/>
+<pin name="VCC" x="-25.4" y="12.7" length="middle" direction="pwr"/>
+<pin name="GND1" x="-25.4" y="2.54" visible="pad" length="middle" direction="pwr"/>
+<pin name="GND" x="-25.4" y="0" length="middle" direction="pwr"/>
+<pin name="PDI_DATA" x="-25.4" y="33.02" length="middle"/>
+<pin name="GND2" x="-25.4" y="5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="!RESET!/PDI_CLK" x="-25.4" y="38.1" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="L3G4200D" prefix="U">
@@ -1347,6 +1611,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 </devices>
 </deviceset>
 <deviceset name="ATMEGA32U4">
+<description>CC-BY-SA from SparkFun</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA32U4" x="0" y="0"/>
 </gates>
@@ -1453,10 +1718,63 @@ It includes a sensing element and an IC interface capable of providing the measu
 <technology name=""/>
 </technologies>
 </device>
+<device name="" package="TQFP44">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="13"/>
+<connect gate="G$1" pin="AREF" pad="42"/>
+<connect gate="G$1" pin="AVCC@24" pad="24"/>
+<connect gate="G$1" pin="AVCC@44" pad="44"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="GND@15" pad="15"/>
+<connect gate="G$1" pin="GND@23" pad="23"/>
+<connect gate="G$1" pin="GND@35" pad="35"/>
+<connect gate="G$1" pin="GND@43" pad="43"/>
+<connect gate="G$1" pin="PB0(SS)" pad="8"/>
+<connect gate="G$1" pin="PB1(SCK)" pad="9"/>
+<connect gate="G$1" pin="PB2(MOSI)" pad="10"/>
+<connect gate="G$1" pin="PB3(MISO)" pad="11"/>
+<connect gate="G$1" pin="PB4(ADC11)" pad="28"/>
+<connect gate="G$1" pin="PB5(ADC12)" pad="29"/>
+<connect gate="G$1" pin="PB6(ADC13)" pad="30"/>
+<connect gate="G$1" pin="PB7" pad="12"/>
+<connect gate="G$1" pin="PC6" pad="31"/>
+<connect gate="G$1" pin="PC7" pad="32"/>
+<connect gate="G$1" pin="PD0(SCL)" pad="18"/>
+<connect gate="G$1" pin="PD1(SDA)" pad="19"/>
+<connect gate="G$1" pin="PD2(RX)" pad="20"/>
+<connect gate="G$1" pin="PD3(TX)" pad="21"/>
+<connect gate="G$1" pin="PD4(ADC8)" pad="25"/>
+<connect gate="G$1" pin="PD5" pad="22"/>
+<connect gate="G$1" pin="PD6(ADC9)" pad="26"/>
+<connect gate="G$1" pin="PD7(ADC10)" pad="27"/>
+<connect gate="G$1" pin="PE2/!HWB" pad="33"/>
+<connect gate="G$1" pin="PE6" pad="1"/>
+<connect gate="G$1" pin="PF0(ADC0)" pad="41"/>
+<connect gate="G$1" pin="PF1(ADC1)" pad="40"/>
+<connect gate="G$1" pin="PF4(ADC4)" pad="39"/>
+<connect gate="G$1" pin="PF5(ADC5)" pad="38"/>
+<connect gate="G$1" pin="PF6(ADC6)" pad="37"/>
+<connect gate="G$1" pin="PF7(ADC7)" pad="36"/>
+<connect gate="G$1" pin="UCAP" pad="6"/>
+<connect gate="G$1" pin="UGND" pad="5"/>
+<connect gate="G$1" pin="UVCC" pad="2"/>
+<connect gate="G$1" pin="VBUS" pad="7"/>
+<connect gate="G$1" pin="VCC@14" pad="14"/>
+<connect gate="G$1" pin="VCC@34" pad="34"/>
+<connect gate="G$1" pin="XTAL1" pad="17"/>
+<connect gate="G$1" pin="XTAL2" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="BLUETOOTH-RN41">
-<description>The RN42 is a small form factor, low power, highly economic Bluetooth radio for OEM’s adding wireless capability to their products.</description>
+<description>The RN42 is a small form factor, low power, highly economic Bluetooth radio for OEM’s adding wireless capability to their products.
+
+CC-BY-SA from SparkFun?</description>
 <gates>
 <gate name="G$1" symbol="RN41" x="0" y="0"/>
 </gates>
@@ -1766,6 +2084,171 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XMEGA16A4" prefix="IC">
+<description>&lt;b&gt;MICROCONTROLLER&lt;/b&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt; High-performance, Low-power 8/16-bit AVR XMEGA Microcontroller&lt;/li&gt;
+&lt;li&gt; Non-Volatile Program and Data Memories&lt;/li&gt;
+- 16 KB - 128 KB of In-System Self-Programmable Flash&lt;br&gt;
+- 4 KB - 8 KB Boot Code Section with Independent Lock Bits&lt;br&gt;
+- 1 KB - 2 KB EEPROM&lt;br&gt;
+- 2 KB - 8 KB Internal SRAM
+&lt;li&gt; Peripheral Features&lt;/li&gt;
+- Four-channel DMA Controller with support for external requests&lt;br&gt;
+- Eight-channel Event System&lt;br&gt;
+- Five 16-bit Timer/Counters
+&lt;ul&gt;Three Timer/Counters with 4 Output Compare or Input Capture channels&lt;/ul&gt;
+&lt;ul&gt;Two Timer/Counters with 2 Output Compare or Input Capture channels&lt;/ul&gt;
+&lt;ul&gt;High-Resolution Extensions on all Timer/Counters&lt;/ul&gt;
+&lt;ul&gt;Advanced Waveform Extension on one Timer/Counter&lt;/ul&gt;
+- Five USARTs
+&lt;ul&gt;IrDA Extension on one USART&lt;/ul&gt;
+- Two Two-Wire Interfaces with dual address match (I2C and SMBus compatible)&lt;br&gt;
+- Two SPIs (Serial Peripheral Interfaces) peripherals&lt;br&gt;
+- AES and DES Crypto Engine&lt;br&gt;
+- 16-bit Real Time Counter with Separate Oscillator&lt;br&gt;
+- One Twelve-channel, 12-bit, 2 Msps Analog to Digital Converter&lt;br&gt;
+- One Two-channel, 12-bit, 1 Msps Digital to Analog Converter&lt;br&gt;
+- Two Analog Comparators with Window compare function&lt;br&gt;
+- External Interrupts on all General Purpose I/O pins&lt;br&gt;
+- Programmable Watchdog Timer with Separate On-chip Ultra Low Power Oscillator
+&lt;li&gt; Special Microcontroller Features&lt;/li&gt;&lt;br&gt;
+- Power-on Reset and Programmable Brown-out Detection&lt;br&gt;
+- Internal and External Clock Options with PLL&lt;br&gt;
+- Programmable Multi-level Interrupt Controller&lt;br&gt;
+- Sleep Modes: Idle, Power-down, Standby, Power-save, Extended Standby&lt;br&gt;
+- Advanced Programming, Test and Debugging Interfaces
+&lt;ul&gt;PDI (Program and Debug Interface) for programming, test and debugging&lt;/ul&gt;
+&lt;li&gt; I/O and Packages&lt;/li&gt;
+- 34 Programmable I/O Lines&lt;br&gt;
+- 44 - lead TQFP&lt;br&gt;
+- 44 - pad VQFN/QFN&lt;br&gt;
+- 49 - ball VFBGA
+&lt;li&gt; Operating Voltage&lt;/li&gt;
+- 1.6 - 3.6V
+&lt;li&gt; Speed performance&lt;/li&gt;
+- 0 - 12 MHz @ 1.6 - 3.6V&lt;br&gt;
+- 0 - 32 MHz @ 2.7 - 3.6V&lt;br&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;author&gt;Drawn by Dipl.-Ing. (FH) Robert Siegler&lt;/author&gt;&lt;/p&gt;
+Created: 27.05.09</description>
+<gates>
+<gate name="G$1" symbol="XMEGA16A4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="TQFP44">
+<connects>
+<connect gate="G$1" pin="!RESET!/PDI_CLK" pad="35"/>
+<connect gate="G$1" pin="AVCC" pad="39"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="GND1" pad="18"/>
+<connect gate="G$1" pin="GND2" pad="30"/>
+<connect gate="G$1" pin="GND3" pad="38"/>
+<connect gate="G$1" pin="PA0" pad="40"/>
+<connect gate="G$1" pin="PA1" pad="41"/>
+<connect gate="G$1" pin="PA2" pad="42"/>
+<connect gate="G$1" pin="PA3" pad="43"/>
+<connect gate="G$1" pin="PA4" pad="44"/>
+<connect gate="G$1" pin="PA5" pad="1"/>
+<connect gate="G$1" pin="PA6" pad="2"/>
+<connect gate="G$1" pin="PA7" pad="3"/>
+<connect gate="G$1" pin="PB0" pad="4"/>
+<connect gate="G$1" pin="PB1" pad="5"/>
+<connect gate="G$1" pin="PB2" pad="6"/>
+<connect gate="G$1" pin="PB3" pad="7"/>
+<connect gate="G$1" pin="PC0" pad="10"/>
+<connect gate="G$1" pin="PC1" pad="11"/>
+<connect gate="G$1" pin="PC2" pad="12"/>
+<connect gate="G$1" pin="PC3" pad="13"/>
+<connect gate="G$1" pin="PC4" pad="14"/>
+<connect gate="G$1" pin="PC5" pad="15"/>
+<connect gate="G$1" pin="PC6" pad="16"/>
+<connect gate="G$1" pin="PC7" pad="17"/>
+<connect gate="G$1" pin="PD0" pad="20"/>
+<connect gate="G$1" pin="PD1" pad="21"/>
+<connect gate="G$1" pin="PD2" pad="22"/>
+<connect gate="G$1" pin="PD3" pad="23"/>
+<connect gate="G$1" pin="PD4" pad="24"/>
+<connect gate="G$1" pin="PD5" pad="25"/>
+<connect gate="G$1" pin="PD6" pad="26"/>
+<connect gate="G$1" pin="PD7" pad="27"/>
+<connect gate="G$1" pin="PDI_DATA" pad="34"/>
+<connect gate="G$1" pin="PE0" pad="28"/>
+<connect gate="G$1" pin="PE1" pad="29"/>
+<connect gate="G$1" pin="PE2" pad="32"/>
+<connect gate="G$1" pin="PE3" pad="33"/>
+<connect gate="G$1" pin="PR0(XT2)" pad="36"/>
+<connect gate="G$1" pin="PR1(XT1)" pad="37"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="VCC1" pad="19"/>
+<connect gate="G$1" pin="VCC2" pad="31"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M1" package="MLF44-TH">
+<connects>
+<connect gate="G$1" pin="!RESET!/PDI_CLK" pad="35"/>
+<connect gate="G$1" pin="AVCC" pad="39"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="GND1" pad="18"/>
+<connect gate="G$1" pin="GND2" pad="30"/>
+<connect gate="G$1" pin="GND3" pad="38"/>
+<connect gate="G$1" pin="PA0" pad="40"/>
+<connect gate="G$1" pin="PA1" pad="41"/>
+<connect gate="G$1" pin="PA2" pad="42"/>
+<connect gate="G$1" pin="PA3" pad="43"/>
+<connect gate="G$1" pin="PA4" pad="44"/>
+<connect gate="G$1" pin="PA5" pad="1"/>
+<connect gate="G$1" pin="PA6" pad="2"/>
+<connect gate="G$1" pin="PA7" pad="3"/>
+<connect gate="G$1" pin="PB0" pad="4"/>
+<connect gate="G$1" pin="PB1" pad="5"/>
+<connect gate="G$1" pin="PB2" pad="6"/>
+<connect gate="G$1" pin="PB3" pad="7"/>
+<connect gate="G$1" pin="PC0" pad="10"/>
+<connect gate="G$1" pin="PC1" pad="11"/>
+<connect gate="G$1" pin="PC2" pad="12"/>
+<connect gate="G$1" pin="PC3" pad="13"/>
+<connect gate="G$1" pin="PC4" pad="14"/>
+<connect gate="G$1" pin="PC5" pad="15"/>
+<connect gate="G$1" pin="PC6" pad="16"/>
+<connect gate="G$1" pin="PC7" pad="17"/>
+<connect gate="G$1" pin="PD0" pad="20"/>
+<connect gate="G$1" pin="PD1" pad="21"/>
+<connect gate="G$1" pin="PD2" pad="22"/>
+<connect gate="G$1" pin="PD3" pad="23"/>
+<connect gate="G$1" pin="PD4" pad="24"/>
+<connect gate="G$1" pin="PD5" pad="25"/>
+<connect gate="G$1" pin="PD6" pad="26"/>
+<connect gate="G$1" pin="PD7" pad="27"/>
+<connect gate="G$1" pin="PDI_DATA" pad="34"/>
+<connect gate="G$1" pin="PE0" pad="28"/>
+<connect gate="G$1" pin="PE1" pad="29"/>
+<connect gate="G$1" pin="PE2" pad="32"/>
+<connect gate="G$1" pin="PE3" pad="33"/>
+<connect gate="G$1" pin="PR0(XT2)" pad="36"/>
+<connect gate="G$1" pin="PR1(XT1)" pad="37"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="VCC1" pad="19"/>
+<connect gate="G$1" pin="VCC2" pad="31"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

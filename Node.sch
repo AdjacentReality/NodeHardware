@@ -5933,7 +5933,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="Tracker"/>
 <part name="U1" library="adjacent-reality" deviceset="ATMEGA32U4" device=""/>
 <part name="U4" library="adjacent-reality" deviceset="L3GD20" device=""/>
 <part name="U2" library="adjacent-reality" deviceset="BLUETOOTH-RN41" device="&quot;"/>
@@ -5952,7 +5952,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="SparkFun" deviceset="USB" device="SMD"/>
-<part name="BAT" library="SparkFun" deviceset="M02" device="-JST-2MM-SMT"/>
+<part name="BAT" library="SparkFun" deviceset="M02" device="-JST-2MM-SMT" value="JST"/>
 <part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF"/>
@@ -5964,7 +5964,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R5" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="220"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="LED5" library="SparkFun" deviceset="LED" device="0603"/>
+<part name="LED5" library="SparkFun" deviceset="LED" device="0603" value="IR"/>
 <part name="R6" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1k"/>
 <part name="R7" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1M"/>
 <part name="R8" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="22"/>
@@ -5994,13 +5994,13 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R18" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 <part name="U9" library="adjacent-reality" deviceset="RCLAMP0502A" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="SparkFun" deviceset="LED" device="0603"/>
+<part name="LED1" library="SparkFun" deviceset="LED" device="0603" value="RED"/>
 <part name="R20" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1k"/>
 <part name="R10" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100k"/>
 <part name="R11" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100k"/>
 <part name="J2" library="SparkFun" deviceset="M04X2" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP2" library="SparkFun" deviceset="M06" device="SIP"/>
+<part name="JP2" library="SparkFun" deviceset="M06" device="SIP" value="UART"/>
 <part name="U$5" library="adjacent-reality" deviceset="LTC3554" device=""/>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1.5k"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
@@ -6012,7 +6012,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R19" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="2.05M"/>
 <part name="R21" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="649k"/>
 <part name="C14" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="3V3"/>
 <part name="C15" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2uF"/>
 <part name="C21" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10uF"/>
 <part name="R22" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="0.3"/>
@@ -6021,7 +6021,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$6" library="adjacent-reality" deviceset="LSM303DLHC" device=""/>
 <part name="L1" library="adjacent-reality" deviceset="INDUCTOR" device="VLS2016" value="4.7uH"/>
 <part name="L2" library="adjacent-reality" deviceset="INDUCTOR" device="VLS2016" value="4.7uH"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="POWER"/>
 </parts>
 <sheets>
 <sheet>
@@ -6110,7 +6110,10 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="R18" gate="G$1" x="55.88" y="139.7" rot="R90"/>
 <instance part="U9" gate="G$1" x="50.8" y="99.06"/>
 <instance part="GND9" gate="1" x="154.94" y="119.38"/>
-<instance part="LED1" gate="G$1" x="134.62" y="193.04" rot="R270"/>
+<instance part="LED1" gate="G$1" x="134.62" y="193.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="130.556" y="196.85" size="1.778" layer="95"/>
+<attribute name="VALUE" x="130.302" y="189.103" size="1.778" layer="96"/>
+</instance>
 <instance part="R20" gate="G$1" x="124.46" y="193.04"/>
 <instance part="R10" gate="G$1" x="195.58" y="187.96" rot="R90"/>
 <instance part="R11" gate="G$1" x="195.58" y="172.72" rot="R90"/>
@@ -6328,11 +6331,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="193.04" x2="55.88" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="193.04" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="SUSP"/>
 <wire x1="55.88" y1="190.5" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="182.88" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="172.72" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="190.5" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="STBY"/>
 <wire x1="81.28" y1="182.88" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
 <junction x="55.88" y="182.88"/>
@@ -6374,6 +6375,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="162.56" x2="71.12" y2="157.48" width="0.1524" layer="91"/>
 <junction x="71.12" y="157.48"/>
+<pinref part="U$5" gate="G$1" pin="SUSP"/>
+<wire x1="81.28" y1="190.5" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
+<junction x="55.88" y="190.5"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -6517,10 +6521,11 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="76.2" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
 <junction x="76.2" y="121.92"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <junction x="99.06" y="144.78"/>
 <wire x1="88.9" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
+<junction x="88.9" y="144.78"/>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
@@ -6702,18 +6707,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="93.98" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="205.74" x2="38.1" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="205.74" x2="33.02" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="205.74" x2="33.02" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="VBUS"/>
-<wire x1="33.02" y1="185.42" x2="22.86" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="VBUS"/>
-<wire x1="38.1" y1="205.74" x2="81.28" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="205.74" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
-<junction x="38.1" y="205.74"/>
-</segment>
-<segment>
 <wire x1="63.5" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
 <label x="63.5" y="99.06" size="1.778" layer="95"/>
 <pinref part="U9" gate="G$1" pin="VCC"/>
@@ -6722,6 +6715,18 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
 <label x="137.16" y="27.94" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="VBUS"/>
+<wire x1="22.86" y1="185.42" x2="33.02" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="185.42" x2="33.02" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="203.2" x2="38.1" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VBUS"/>
+<wire x1="38.1" y1="203.2" x2="81.28" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="203.2" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
+<junction x="38.1" y="203.2"/>
+<label x="38.1" y="204.216" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -6782,15 +6787,10 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="N$20" class="0">
 <segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="LED5" gate="G$1" pin="C"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<junction x="182.88" y="71.12"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -7258,6 +7258,12 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="167.64" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>

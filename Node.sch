@@ -6019,8 +6019,8 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C22" library="SparkFun" deviceset="CAP" device="1210" value="100uF"/>
 <part name="C23" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="U$6" library="adjacent-reality" deviceset="LSM303DLHC" device=""/>
-<part name="L1" library="adjacent-reality" deviceset="INDUCTOR" device="VLS2016" value="4.7uH"/>
-<part name="L2" library="adjacent-reality" deviceset="INDUCTOR" device="VLS2016" value="4.7uH"/>
+<part name="L1" library="adjacent-reality" deviceset="INDUCTOR" device="VLS30" value="4.7uH"/>
+<part name="L2" library="adjacent-reality" deviceset="INDUCTOR" device="VLS30" value="4.7uH"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="POWER"/>
 </parts>
 <sheets>

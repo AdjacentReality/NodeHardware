@@ -7,7 +7,7 @@ length = mm(1.5)+extra;
 thickness = 11.5;
 jst_t = 5.4;
 pcb_t = 1.65;
-bt_t = 0.6;
+bt_t = 1.0;
 usb_w = 7.8+extra;
 
 module cutout(w) {
@@ -36,6 +36,7 @@ module body() {
             translate([wall, wall, wall+jst_t+pcb_t+extra+2]) cube([5, length, thickness-jst_t-pcb_t-extra-2]);
             // pcb holder on the bluetooth side
             translate([wall+width-5.0, wall, wall]) cube([5, 5, jst_t]);
+            translate([wall+width-5.0, wall, wall+jst_t+pcb_t+bt_t]) cube([5, 5, thickness-jst_t-pcb_t-bt_t]);
         }
         translate([wall+2.5, wall+length-2.5, wall+thickness-0.2]) cylinder(r=2.6, h=5, $fn=20);
         translate([wall+2.5, wall+length-2.5, wall]) cylinder(r=1.5, h=20, $fn=20);
@@ -48,8 +49,12 @@ module lid() {
             cube([width-extra, wall, thickness-extra*2]);
             // holder around usb hole
             translate([(width-extra)/2-usb_w/2-wall, 0, jst_t+pcb_t-extra+1]) cube([usb_w+wall*2, 5, thickness-extra*2-(jst_t+pcb_t-extra)-1]);
+            // below pcb
+            translate([5.0+extra, wall, jst_t-wall]) cube([width-extra*2-5.0, 4.0, wall]);
             // screw hole piece
             translate([0, wall, jst_t+pcb_t+extra]) cube([5, 5, thickness-jst_t-pcb_t-2-extra*2]);
+            // power supply side piece
+            translate([width-5.0, wall, jst_t+pcb_t+1.5]) cube([5.0-extra, 5.0, thickness-jst_t-pcb_t-1.5-extra*2]);
         }
         // usb hole
         translate([(width-extra)/2-usb_w/2, 0, jst_t+pcb_t-extra]) cube([usb_w, 10, 10]);

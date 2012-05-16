@@ -100,7 +100,10 @@ module top() {
 module button() {
 
     difference() {
-        cylinder(r1=button_hole_r-0.5, r2=button_hole_r-wall, h=button_h, $fn=roundness);
+        union() {
+            cylinder(r=button_hole_r-0.3, h=6.0);
+            translate([0, 0, 6.0]) cylinder(r1=button_hole_r-0.3, r2=button_hole_r-wall, h=button_h-6, $fn=roundness);
+        }
         // pushbutton hole
         cylinder(r=push_r, h=5.0, $fn=roundness);
         // led hole

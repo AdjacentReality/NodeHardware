@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1760,6 +1760,35 @@ chip</description>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="LTC3553">
+<pin name="SEQ" x="-17.78" y="2.54" length="middle"/>
+<pin name="VINLDO" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="SUSP" x="-17.78" y="5.08" length="middle"/>
+<pin name="PROG" x="-17.78" y="7.62" length="middle"/>
+<pin name="HPWR" x="-17.78" y="10.16" length="middle"/>
+<pin name="STBY" x="-17.78" y="0" length="middle"/>
+<pin name="BUCK_ON" x="-17.78" y="-2.54" length="middle"/>
+<pin name="LDO_ON" x="-17.78" y="-5.08" length="middle"/>
+<pin name="PBSTAT" x="-17.78" y="-7.62" length="middle"/>
+<pin name="VBUS" x="-17.78" y="12.7" length="middle"/>
+<pin name="!ON" x="-17.78" y="-10.16" length="middle"/>
+<pin name="VOUT" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="BAT" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="!CHRG" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="BVIN" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="SW" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="BUCK_FB" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="LDO" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="LDO_FB" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="NTC" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="15.875" size="1.9304" layer="95">&gt;Name</text>
+<text x="-12.7" y="-17.78" size="1.9304" layer="96">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="L3G4200D" prefix="U">
@@ -2725,6 +2754,44 @@ CC-BY-SA from SparkFun</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC3553">
+<description>Micropower USB Power
+Manager With Li-Ion Charger,
+LDO and Buck Regulator</description>
+<gates>
+<gate name="G$1" symbol="LTC3553" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN20-3X3">
+<connects>
+<connect gate="G$1" pin="!CHRG" pad="14"/>
+<connect gate="G$1" pin="!ON" pad="4"/>
+<connect gate="G$1" pin="BAT" pad="17"/>
+<connect gate="G$1" pin="BUCK_FB" pad="8"/>
+<connect gate="G$1" pin="BUCK_ON" pad="7"/>
+<connect gate="G$1" pin="BVIN" pad="12"/>
+<connect gate="G$1" pin="GND" pad="21"/>
+<connect gate="G$1" pin="HPWR" pad="1"/>
+<connect gate="G$1" pin="LDO" pad="10"/>
+<connect gate="G$1" pin="LDO_FB" pad="9"/>
+<connect gate="G$1" pin="LDO_ON" pad="5"/>
+<connect gate="G$1" pin="NTC" pad="15"/>
+<connect gate="G$1" pin="PBSTAT" pad="3"/>
+<connect gate="G$1" pin="PROG" pad="16"/>
+<connect gate="G$1" pin="SEQ" pad="2"/>
+<connect gate="G$1" pin="STBY" pad="6"/>
+<connect gate="G$1" pin="SUSP" pad="19"/>
+<connect gate="G$1" pin="SW" pad="13"/>
+<connect gate="G$1" pin="VBUS" pad="20"/>
+<connect gate="G$1" pin="VINLDO" pad="11"/>
+<connect gate="G$1" pin="VOUT" pad="18"/>
 </connects>
 <technologies>
 <technology name=""/>

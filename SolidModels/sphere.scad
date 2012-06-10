@@ -4,7 +4,7 @@ extra_w = 1.0;
 wall = 2.0;
 board = mm(1.5)+extra_w;
 screw_r = 1.5;
-screw_head = 2.6;
+screw_head = 2.7;
 sphere_r = (board/2)*sqrt(2)+wall;
 jst_t = 5.4;
 pcb_t = 1.65;
@@ -35,6 +35,7 @@ module top() {
         translate([-board/2, -board/2, 0]) cube([board, board, 0.25]);
         // a cutout for the reset button
         translate([-15, 0, 0]) cube([8, 50, 3]);
+        translate([-5, 0, 0]) cube([10, 50, 8]);
     }
 }
 
@@ -66,5 +67,5 @@ module bottom() {
 }
 
 top();
-bottom();
+//bottom();
 

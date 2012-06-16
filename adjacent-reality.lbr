@@ -1374,22 +1374,20 @@ chip</description>
 <text x="-1.7" y="-1.3" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
 </package>
 <package name="MOLEX2.4SMD">
-<wire x1="-1.57" y1="1.57" x2="1.57" y2="1.57" width="0.127" layer="51"/>
-<wire x1="1.57" y1="1.57" x2="1.57" y2="-1.57" width="0.127" layer="51"/>
-<wire x1="1.57" y1="-1.57" x2="-1.57" y2="-1.57" width="0.127" layer="51"/>
-<wire x1="-1.57" y1="-1.57" x2="-1.57" y2="1.57" width="0.127" layer="51"/>
-<smd name="P$1" x="-0.97" y="0.97" dx="1.54" dy="1.54" layer="1"/>
-<smd name="P$2" x="0.97" y="0.97" dx="1.54" dy="1.54" layer="1"/>
-<smd name="P$3" x="0.97" y="-0.97" dx="1.54" dy="1.54" layer="1"/>
-<smd name="P$4" x="-0.97" y="-0.97" dx="1.54" dy="1.54" layer="1"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="0" width="0.127" layer="51"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-0.635" y1="-1.27" x2="0" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="0" y1="-1.27" x2="0.635" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.57" y1="1.57" x2="-0.635" y2="1.57" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.57" x2="1.57" y2="1.57" width="0.127" layer="51"/>
+<wire x1="1.57" y1="1.57" x2="1.57" y2="0" width="0.127" layer="51"/>
+<wire x1="1.57" y1="0" x2="1.57" y2="-1.57" width="0.127" layer="51"/>
+<wire x1="1.57" y1="-1.57" x2="0" y2="-1.57" width="0.127" layer="51"/>
+<smd name="FIX2" x="-0.97" y="0.97" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FIX1" x="0.97" y="0.97" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FEED" x="0.97" y="-0.97" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FIX3" x="-0.97" y="-0.97" dx="1.54" dy="1.54" layer="1"/>
+<wire x1="0" y1="-1.57" x2="-1.57" y2="-1.57" width="0.127" layer="51"/>
+<wire x1="-1.57" y1="1.57" x2="-1.57" y2="-1.57" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.57" x2="0.635" y2="1.57" width="0.127" layer="51"/>
+<wire x1="0" y1="-1.57" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="1.57" y2="0" width="0.127" layer="51"/>
 </package>
 <package name="QFN20">
 <wire x1="-1.5" y1="2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
@@ -3200,6 +3198,14 @@ CC BY SA SparkFun</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="MOLEX" package="MOLEX2.4SMD">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="NRF24L01">
@@ -3210,7 +3216,7 @@ CC BY SA SparkFun</description>
 <gate name="G$1" symbol="NRF24L01-1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN20-NOPAD">
+<device name="NOPAD" package="QFN20-NOPAD">
 <connects>
 <connect gate="G$1" pin="ANT1" pad="12"/>
 <connect gate="G$1" pin="ANT2" pad="13"/>

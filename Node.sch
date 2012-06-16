@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1029,6 +1029,109 @@ chip</description>
 <wire x1="-0.5207" y1="-0.5207" x2="-0.5207" y2="-0.26035" width="0.127" layer="21"/>
 <text x="-0.635" y="0.635" size="0.4064" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="QFN20-NOPAD">
+<wire x1="-1.5" y1="2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.0762" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.0762" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.0762" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.0762" layer="51"/>
+<smd name="16" x="1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="15" x="1.9" y="1" dx="0.65" dy="0.3" layer="1" cream="no"/>
+<smd name="14" x="1.9" y="0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
+<smd name="13" x="1.9" y="0" dx="0.65" dy="0.3" layer="1" cream="no"/>
+<smd name="12" x="1.9" y="-0.5" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="11" x="1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="10" x="1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="0" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="7" x="-0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="6" x="-1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="5" x="-1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
+<smd name="4" x="-1.9" y="-0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
+<smd name="3" x="-1.9" y="0" dx="0.65" dy="0.3" layer="1" cream="no"/>
+<smd name="2" x="-1.9" y="0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
+<smd name="1" x="-1.9" y="1" dx="0.65" dy="0.3" layer="1" cream="no"/>
+<smd name="17" x="0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="18" x="0" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="19" x="-0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="20" x="-1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
+<text x="-1.27" y="0.889" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="ANTENNA-CHIP2">
+<wire x1="-0.889" y1="0.508" x2="-0.889" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="0.889" y1="0.508" x2="0.889" y2="-0.508" width="0.2032" layer="21"/>
+<smd name="FEED" x="0" y="1.25" dx="1.7" dy="1" layer="1"/>
+<smd name="P$2" x="0" y="-1.25" dx="1.7" dy="1" layer="1"/>
+</package>
+<package name="ANTENNA-CHIP3">
+<wire x1="-1" y1="3.4" x2="-1" y2="2" width="0.2032" layer="21"/>
+<wire x1="-1" y1="2" x2="-1" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="1" y1="3.4" x2="1" y2="2" width="0.2032" layer="21"/>
+<wire x1="1" y1="2" x2="1" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="1" y1="2" x2="-1" y2="2" width="0.2032" layer="21"/>
+<smd name="FEED" x="0" y="4.5" dx="1.8" dy="1.5" layer="1"/>
+<smd name="NC" x="0" y="-4.5" dx="1.8" dy="1.5" layer="1"/>
+</package>
+<package name="ANTENNA-CHIP4">
+<wire x1="-4" y1="1" x2="-4" y2="-1" width="0.127" layer="51"/>
+<wire x1="-4" y1="-1" x2="4" y2="-1" width="0.127" layer="51"/>
+<wire x1="4" y1="-1" x2="4" y2="1" width="0.127" layer="51"/>
+<wire x1="4" y1="1" x2="-4" y2="1" width="0.127" layer="51"/>
+<wire x1="-3" y1="1" x2="3" y2="1" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.2032" layer="21"/>
+<circle x="-3" y="0.6" radius="0.1414" width="0.127" layer="21"/>
+<smd name="SIG" x="-4" y="0" dx="1" dy="2" layer="1"/>
+<smd name="NC" x="4" y="0" dx="1" dy="2" layer="1"/>
+<text x="-1.651" y="-0.254" size="0.6096" layer="51">152111</text>
+<text x="-4" y="-2" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-3.99" y="1.59" size="0.4064" layer="25">&gt;NAME</text>
+</package>
+<package name="ANTENNA-CHIP5">
+<wire x1="-2.413" y1="-1.143" x2="2.413" y2="-1.143" width="0.2032" layer="21"/>
+<wire x1="-2.413" y1="1.143" x2="2.413" y2="1.143" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0" x2="2.159" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="0" x2="1.778" y2="0.381" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="0" x2="1.778" y2="-0.381" width="0.2032" layer="21"/>
+<smd name="FEED" x="-3.302" y="0" dx="1.016" dy="2.54" layer="1" rot="R180"/>
+<smd name="NC" x="3.302" y="0" dx="1.016" dy="2.54" layer="1" rot="R180"/>
+<text x="0.508" y="0.127" size="0.8128" layer="51">AF</text>
+<text x="-2.54" y="0.381" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2.54" y="-0.762" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="ANTENNA-CHIP6">
+<description>Footprint for Part#1575AT43A40</description>
+<wire x1="-2.7" y1="1" x2="2.7" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-1" x2="2.7" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="0.3" x2="-2.6" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-0.3" x2="-1.6" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.3" x2="-1.6" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.3" x2="-2.6" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1" x2="3.5" y2="1" width="0.127" layer="51"/>
+<wire x1="3.5" y1="1" x2="3.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-1" x2="-3.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-1" x2="-3.5" y2="1" width="0.127" layer="51"/>
+<smd name="NC" x="3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="1" x="-3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
+<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.7" y="-1.3" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
+</package>
+<package name="MOLEX2.4SMD">
+<wire x1="-1.57" y1="1.57" x2="-0.635" y2="1.57" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.57" x2="1.57" y2="1.57" width="0.127" layer="51"/>
+<wire x1="1.57" y1="1.57" x2="1.57" y2="0" width="0.127" layer="51"/>
+<wire x1="1.57" y1="0" x2="1.57" y2="-1.57" width="0.127" layer="51"/>
+<wire x1="1.57" y1="-1.57" x2="0" y2="-1.57" width="0.127" layer="51"/>
+<smd name="FIX2" x="-0.97" y="0.97" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FIX1" x="0.97" y="0.97" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FEED" x="0.97" y="-0.97" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FIX3" x="-0.97" y="-0.97" dx="1.54" dy="1.54" layer="1"/>
+<wire x1="0" y1="-1.57" x2="-1.57" y2="-1.57" width="0.127" layer="51"/>
+<wire x1="-1.57" y1="1.57" x2="-1.57" y2="-1.57" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.57" x2="0.635" y2="1.57" width="0.127" layer="51"/>
+<wire x1="0" y1="-1.57" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="1.57" y2="0" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA32U4">
@@ -1336,6 +1439,43 @@ chip</description>
 <wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="NRF24L01-1">
+<wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<text x="-17.78" y="13.462" size="1.6764" layer="95">&gt;NAME</text>
+<text x="9.144" y="13.462" size="1.6764" layer="96">&gt;VALUE</text>
+<pin name="VDD@7" x="2.54" y="17.78" length="middle" direction="pwr" rot="R270"/>
+<pin name="VSS@8" x="-7.62" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+<pin name="CE" x="-22.86" y="7.62" length="middle" direction="in"/>
+<pin name="MOSI" x="-22.86" y="0" length="middle" direction="in"/>
+<pin name="MISO" x="-22.86" y="-2.54" length="middle" direction="out"/>
+<pin name="SCK" x="-22.86" y="2.54" length="middle" direction="in"/>
+<pin name="VSS@20" x="0" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+<pin name="IRQ" x="-22.86" y="-5.08" length="middle" direction="out" function="dot"/>
+<pin name="DVDD" x="5.08" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+<pin name="XC2" x="12.7" y="-17.78" length="middle" direction="in" rot="R90"/>
+<pin name="XC1" x="15.24" y="-17.78" length="middle" direction="in" rot="R90"/>
+<pin name="VDD_PA" x="22.86" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="ANT1" x="22.86" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="ANT2" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="VDD@15" x="0" y="17.78" length="middle" direction="pwr" rot="R270"/>
+<pin name="IREF" x="7.62" y="-17.78" length="middle" direction="in" rot="R90"/>
+<pin name="VDD@18" x="-2.54" y="17.78" length="middle" direction="pwr" rot="R270"/>
+<pin name="CSN" x="-22.86" y="5.08" length="middle" direction="in"/>
+<pin name="VSS@17" x="-2.54" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+<pin name="VSS@14" x="-5.08" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="ANTENNA2">
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="1.27" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SIGNAL" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1948,6 +2088,101 @@ For nRF24L01 and nRF24L01+</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NRF24L01">
+<description>&lt;b&gt;2.4GHz Low Power Transceiver&lt;/b&gt;
+This is the very popular, low cost, very low power RF transceiver from Nordic Semiconductor. Simple SPI interface. SKU: COM-00690
+CC BY SA SparkFun</description>
+<gates>
+<gate name="G$1" symbol="NRF24L01-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NOPAD" package="QFN20-NOPAD">
+<connects>
+<connect gate="G$1" pin="ANT1" pad="12"/>
+<connect gate="G$1" pin="ANT2" pad="13"/>
+<connect gate="G$1" pin="CE" pad="1"/>
+<connect gate="G$1" pin="CSN" pad="2"/>
+<connect gate="G$1" pin="DVDD" pad="19"/>
+<connect gate="G$1" pin="IREF" pad="16"/>
+<connect gate="G$1" pin="IRQ" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="5"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VDD@15" pad="15"/>
+<connect gate="G$1" pin="VDD@18" pad="18"/>
+<connect gate="G$1" pin="VDD@7" pad="7"/>
+<connect gate="G$1" pin="VDD_PA" pad="11"/>
+<connect gate="G$1" pin="VSS@14" pad="14"/>
+<connect gate="G$1" pin="VSS@17" pad="17"/>
+<connect gate="G$1" pin="VSS@20" pad="20"/>
+<connect gate="G$1" pin="VSS@8" pad="8"/>
+<connect gate="G$1" pin="XC1" pad="10"/>
+<connect gate="G$1" pin="XC2" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ANTENNA2">
+<description>&lt;b&gt;Chip antenna&lt;/b&gt;&lt;p&gt;
+Single endded antenna. Common with smaller chip antennas. CHIP4 package is the GPS Chip Antenna &lt;b&gt;SKU:&lt;/b&gt; GPS-08418. CHIP5 package is 2.4GHz chip antenna &lt;b&gt;SKU:&lt;/b&gt; WRL-00144.
+CC BY SA SparkFun</description>
+<gates>
+<gate name="G$1" symbol="ANTENNA2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="ANTENNA-CHIP2">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD2" package="ANTENNA-CHIP3">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD3" package="ANTENNA-CHIP4">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="SIG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD5" package="ANTENNA-CHIP5">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD6" package="ANTENNA-CHIP6">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MOLEX" package="MOLEX2.4SMD">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3591,136 +3826,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-RF">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find things that send or receive RF- GPS, cellular modules, Bluetooth, WiFi, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="QFN20">
-<wire x1="-1.5" y1="2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.0762" layer="51"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.0762" layer="51"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.0762" layer="51"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.0762" layer="51"/>
-<smd name="0" x="0" y="0" dx="1" dy="1" layer="1" rot="R180" cream="no"/>
-<smd name="16" x="1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="15" x="1.9" y="1" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="14" x="1.9" y="0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="13" x="1.9" y="0" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="12" x="1.9" y="-0.5" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="11" x="1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="10" x="1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="9" x="0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="8" x="0" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="7" x="-0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="6" x="-1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="5" x="-1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="4" x="-1.9" y="-0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="3" x="-1.9" y="0" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="2" x="-1.9" y="0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="1" x="-1.9" y="1" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="17" x="0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="18" x="0" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="19" x="-0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="20" x="-1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<text x="-1.27" y="0.889" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="31"/>
-<rectangle x1="-2.0955" y1="0.9017" x2="-1.6129" y2="1.1049" layer="31"/>
-<rectangle x1="-2.0955" y1="0.3937" x2="-1.6129" y2="0.5969" layer="31"/>
-<rectangle x1="-2.0955" y1="-0.1016" x2="-1.6129" y2="0.1016" layer="31"/>
-<rectangle x1="-2.0955" y1="-0.5969" x2="-1.6129" y2="-0.3937" layer="31"/>
-<rectangle x1="-2.0955" y1="-1.1049" x2="-1.6129" y2="-0.9017" layer="31"/>
-<rectangle x1="1.6129" y1="0.9017" x2="2.0955" y2="1.1049" layer="31"/>
-<rectangle x1="1.6129" y1="0.3937" x2="2.0955" y2="0.5969" layer="31"/>
-<rectangle x1="1.6129" y1="-0.1016" x2="2.0955" y2="0.1016" layer="31"/>
-<rectangle x1="1.6129" y1="-0.5969" x2="2.0955" y2="-0.3937" layer="31"/>
-<rectangle x1="1.6129" y1="-1.1049" x2="2.0955" y2="-0.9017" layer="31"/>
-<rectangle x1="-1.2446" y1="1.7526" x2="-0.762" y2="1.9558" layer="31" rot="R90"/>
-<rectangle x1="-0.7366" y1="1.7526" x2="-0.254" y2="1.9558" layer="31" rot="R90"/>
-<rectangle x1="-0.2413" y1="1.7526" x2="0.2413" y2="1.9558" layer="31" rot="R90"/>
-<rectangle x1="0.254" y1="1.7526" x2="0.7366" y2="1.9558" layer="31" rot="R90"/>
-<rectangle x1="0.762" y1="1.7526" x2="1.2446" y2="1.9558" layer="31" rot="R90"/>
-<rectangle x1="-1.2446" y1="-1.9558" x2="-0.762" y2="-1.7526" layer="31" rot="R90"/>
-<rectangle x1="-0.7366" y1="-1.9558" x2="-0.254" y2="-1.7526" layer="31" rot="R90"/>
-<rectangle x1="-0.2413" y1="-1.9558" x2="0.2413" y2="-1.7526" layer="31" rot="R90"/>
-<rectangle x1="0.254" y1="-1.9558" x2="0.7366" y2="-1.7526" layer="31" rot="R90"/>
-<rectangle x1="0.762" y1="-1.9558" x2="1.2446" y2="-1.7526" layer="31" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="NRF24L01-1">
-<wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
-<text x="-17.78" y="13.462" size="1.6764" layer="95">&gt;NAME</text>
-<text x="9.144" y="13.462" size="1.6764" layer="96">&gt;VALUE</text>
-<pin name="VDD@7" x="2.54" y="17.78" length="middle" direction="pwr" rot="R270"/>
-<pin name="VSS@8" x="-7.62" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="CE" x="-22.86" y="7.62" length="middle" direction="in"/>
-<pin name="MOSI" x="-22.86" y="0" length="middle" direction="in"/>
-<pin name="MISO" x="-22.86" y="-2.54" length="middle" direction="out"/>
-<pin name="SCK" x="-22.86" y="2.54" length="middle" direction="in"/>
-<pin name="VSS@20" x="0" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="IRQ" x="-22.86" y="-5.08" length="middle" direction="out" function="dot"/>
-<pin name="DVDD" x="5.08" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="XC2" x="12.7" y="-17.78" length="middle" direction="in" rot="R90"/>
-<pin name="XC1" x="15.24" y="-17.78" length="middle" direction="in" rot="R90"/>
-<pin name="VDD_PA" x="22.86" y="0" length="middle" direction="pwr" rot="R180"/>
-<pin name="ANT1" x="22.86" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="ANT2" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="VDD@15" x="0" y="17.78" length="middle" direction="pwr" rot="R270"/>
-<pin name="IREF" x="7.62" y="-17.78" length="middle" direction="in" rot="R90"/>
-<pin name="VDD@18" x="-2.54" y="17.78" length="middle" direction="pwr" rot="R270"/>
-<pin name="CSN" x="-22.86" y="5.08" length="middle" direction="in"/>
-<pin name="VSS@17" x="-2.54" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="VSS@14" x="-5.08" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="VSS@0" x="-10.16" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NRF24L01">
-<description>&lt;b&gt;2.4GHz Low Power Transceiver&lt;/b&gt;
-This is the very popular, low cost, very low power RF transceiver from Nordic Semiconductor. Simple SPI interface. SKU: COM-00690</description>
-<gates>
-<gate name="G$1" symbol="NRF24L01-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="QFN20">
-<connects>
-<connect gate="G$1" pin="ANT1" pad="12"/>
-<connect gate="G$1" pin="ANT2" pad="13"/>
-<connect gate="G$1" pin="CE" pad="1"/>
-<connect gate="G$1" pin="CSN" pad="2"/>
-<connect gate="G$1" pin="DVDD" pad="19"/>
-<connect gate="G$1" pin="IREF" pad="16"/>
-<connect gate="G$1" pin="IRQ" pad="6"/>
-<connect gate="G$1" pin="MISO" pad="5"/>
-<connect gate="G$1" pin="MOSI" pad="4"/>
-<connect gate="G$1" pin="SCK" pad="3"/>
-<connect gate="G$1" pin="VDD@15" pad="15"/>
-<connect gate="G$1" pin="VDD@18" pad="18"/>
-<connect gate="G$1" pin="VDD@7" pad="7"/>
-<connect gate="G$1" pin="VDD_PA" pad="11"/>
-<connect gate="G$1" pin="VSS@0" pad="0"/>
-<connect gate="G$1" pin="VSS@14" pad="14"/>
-<connect gate="G$1" pin="VSS@17" pad="17"/>
-<connect gate="G$1" pin="VSS@20" pad="20"/>
-<connect gate="G$1" pin="VSS@8" pad="8"/>
-<connect gate="G$1" pin="XC1" pad="10"/>
-<connect gate="G$1" pin="XC2" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Electromechanical">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find anything that moves- switches, relays, buttons, potentiometers. Also, anything that goes on a board but isn't electrical in nature- screws, standoffs, etc.&lt;br&gt;&lt;br&gt;
@@ -4277,7 +4382,7 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="L2" library="adjacent-reality" deviceset="INDUCTOR" device="VLS30" value="4.7uH"/>
 <part name="U3" library="adjacent-reality" deviceset="LTC3553" device=""/>
 <part name="HWB" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="U2" library="SparkFun-RF" deviceset="NRF24L01" device="SMD"/>
+<part name="U2" library="adjacent-reality" deviceset="NRF24L01" device="NOPAD"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="SparkFun" deviceset="CAP" device="0402-CAP" value="33nF"/>
@@ -4295,10 +4400,14 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="C26" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7pF"/>
 <part name="L4" library="adjacent-reality" deviceset="INDUCTOR" device="0402" value="3.9nH"/>
 <part name="U7" library="adjacent-reality" deviceset="BD2425NNRF" device="0404"/>
+<part name="L1" library="adjacent-reality" deviceset="INDUCTOR" device="0402" value="TBD"/>
+<part name="C27" library="SparkFun" deviceset="CAP" device="0402-CAP" value="TBD"/>
+<part name="RF" library="adjacent-reality" deviceset="ANTENNA2" device="MOLEX"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="116.84" y="33.02" size="1.4224" layer="97" font="vector">PI Network values to be determined</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -4397,6 +4506,12 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <attribute name="VALUE" x="99.06" y="43.18" size="1.778" layer="96"/>
 </instance>
 <instance part="U7" gate="G$1" x="78.74" y="50.8"/>
+<instance part="L1" gate="G$1" x="116.84" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="111.76" y="43.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="119.38" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="106.68" y="33.02"/>
+<instance part="RF" gate="G$1" x="127" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -4660,6 +4775,10 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="12.7" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="30.48" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="10.16" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
+<junction x="91.44" y="10.16"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
@@ -5451,6 +5570,24 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="U7" gate="G$1" pin="2"/>
 <pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="53.34" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="40.64" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="40.64" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
+<junction x="106.68" y="40.64"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="RF" gate="G$1" pin="SIGNAL"/>
+<wire x1="124.46" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

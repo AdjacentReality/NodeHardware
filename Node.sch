@@ -1010,6 +1010,25 @@ chip</description>
 <circle x="2.55" y="1.5" radius="0.3" width="0.127" layer="51"/>
 <text x="-2.54" y="2.794" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="BD2425NNRF">
+<smd name="2" x="-0.254" y="0.254" dx="0.2794" dy="0.2794" layer="1"/>
+<smd name="3" x="-0.254" y="-0.254" dx="0.2794" dy="0.2794" layer="1"/>
+<smd name="4" x="0.254" y="-0.254" dx="0.2794" dy="0.2794" layer="1"/>
+<smd name="1" x="0.2921" y="0.2921" dx="0.3556" dy="0.3556" layer="1"/>
+<wire x1="-0.5207" y1="0.5207" x2="0.5207" y2="0.5207" width="0.127" layer="51"/>
+<wire x1="0.5207" y1="0.5207" x2="0.5207" y2="-0.5207" width="0.127" layer="51"/>
+<wire x1="0.5207" y1="-0.5207" x2="-0.5207" y2="-0.5207" width="0.127" layer="51"/>
+<wire x1="-0.5207" y1="-0.5207" x2="-0.5207" y2="0.5207" width="0.127" layer="51"/>
+<wire x1="-0.5207" y1="0.26035" x2="-0.5207" y2="0.5207" width="0.127" layer="21"/>
+<wire x1="-0.5207" y1="0.5207" x2="-0.26035" y2="0.5207" width="0.127" layer="21"/>
+<wire x1="0.26035" y1="0.5207" x2="0.5207" y2="0.5207" width="0.127" layer="21"/>
+<wire x1="0.5207" y1="0.5207" x2="0.5207" y2="0.26035" width="0.127" layer="21"/>
+<wire x1="0.5207" y1="-0.26035" x2="0.5207" y2="-0.5207" width="0.127" layer="21"/>
+<wire x1="0.5207" y1="-0.5207" x2="0.26035" y2="-0.5207" width="0.127" layer="21"/>
+<wire x1="-0.26035" y1="-0.5207" x2="-0.5207" y2="-0.5207" width="0.127" layer="21"/>
+<wire x1="-0.5207" y1="-0.5207" x2="-0.5207" y2="-0.26035" width="0.127" layer="21"/>
+<text x="-0.635" y="0.635" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA32U4">
@@ -1305,6 +1324,18 @@ chip</description>
 <wire x1="2.54" y1="-10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
 <text x="-2.54" y="11.176" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="BD2425NNRF">
+<pin name="3" x="-10.16" y="2.54" length="middle"/>
+<pin name="4" x="-10.16" y="0" length="middle"/>
+<pin name="1" x="2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="2" x="10.16" y="2.54" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1897,6 +1928,26 @@ LDO and Buck Regulator</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BD2425NNRF">
+<description>Ultra Low Profile 0404 Balun
+For nRF24L01 and nRF24L01+</description>
+<gates>
+<gate name="G$1" symbol="BD2425NNRF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0404" package="BD2425NNRF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4237,6 +4288,13 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="J2" library="adjacent-reality" deviceset="DF12A3.0-14DS" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
+<part name="C12" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="C22" library="SparkFun" deviceset="CAP" device="0402-CAP" value="10nF"/>
+<part name="C24" library="SparkFun" deviceset="CAP" device="0402-CAP" value="1nF"/>
+<part name="C25" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="C26" library="SparkFun" deviceset="CAP" device="0402-CAP" value="4.7pF"/>
+<part name="L4" library="adjacent-reality" deviceset="INDUCTOR" device="0402" value="3.9nH"/>
+<part name="U7" library="adjacent-reality" deviceset="BD2425NNRF" device="0404"/>
 </parts>
 <sheets>
 <sheet>
@@ -4258,7 +4316,7 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <instance part="C6" gate="G$1" x="203.2" y="132.08"/>
 <instance part="C7" gate="G$1" x="195.58" y="132.08"/>
 <instance part="GND2" gate="1" x="208.28" y="109.22"/>
-<instance part="GND3" gate="1" x="99.06" y="50.8"/>
+<instance part="GND3" gate="1" x="99.06" y="55.88"/>
 <instance part="+3V3" gate="G$1" x="99.06" y="152.4"/>
 <instance part="X1" gate="G$1" x="20.32" y="187.96" rot="R180"/>
 <instance part="C9" gate="G$1" x="38.1" y="198.12"/>
@@ -4329,6 +4387,16 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <instance part="J2" gate="G$1" x="170.18" y="134.62"/>
 <instance part="GND9" gate="1" x="185.42" y="121.92"/>
 <instance part="+3V8" gate="G$1" x="185.42" y="149.86"/>
+<instance part="C12" gate="G$1" x="10.16" y="15.24"/>
+<instance part="C22" gate="G$1" x="17.78" y="15.24"/>
+<instance part="C24" gate="G$1" x="25.4" y="15.24"/>
+<instance part="C25" gate="G$1" x="81.28" y="15.24"/>
+<instance part="C26" gate="G$1" x="91.44" y="15.24"/>
+<instance part="L4" gate="G$1" x="96.52" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="43.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="99.06" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="U7" gate="G$1" x="78.74" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -4440,7 +4508,7 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <wire x1="104.14" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="60.96" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <junction x="99.06" y="63.5"/>
-<wire x1="99.06" y1="60.96" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="60.96" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
 <junction x="99.06" y="60.96"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
@@ -4546,14 +4614,11 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="U9" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VSS@0"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="33.02" y1="30.48" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VSS@8"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="25.4" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<junction x="33.02" y="25.4"/>
 <pinref part="U2" gate="G$1" pin="VSS@14"/>
 <wire x1="35.56" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="25.4" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
@@ -4576,6 +4641,25 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="Q1" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 <junction x="50.8" y="10.16"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
+<junction x="17.78" y="10.16"/>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<junction x="25.4" y="10.16"/>
+<junction x="63.5" y="10.16"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="12.7" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
+<junction x="81.28" y="10.16"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="12.7" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
@@ -4727,6 +4811,18 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="U2" gate="G$1" pin="VDD@7"/>
 <wire x1="43.18" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 <junction x="43.18" y="66.04"/>
+<wire x1="40.64" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="66.04" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="25.4" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
+<junction x="10.16" y="25.4"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
+<junction x="17.78" y="25.4"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -5317,6 +5413,44 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="J2" gate="G$1" pin="8"/>
 <wire x1="177.8" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
 <label x="180.34" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="ANT2"/>
+<pinref part="U7" gate="G$1" pin="3"/>
+<wire x1="66.04" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="ANT1"/>
+<pinref part="U7" gate="G$1" pin="4"/>
+<wire x1="66.04" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="25.4" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="25.4" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VDD_PA"/>
+<wire x1="66.04" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="48.26" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="25.4" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<junction x="81.28" y="25.4"/>
+<junction x="81.28" y="40.64"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="2"/>
+<pinref part="L4" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="53.34" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

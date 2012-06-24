@@ -3258,7 +3258,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="LED1" gate="G$1" x="187.96" y="76.2"/>
 <instance part="U4" gate="G$1" x="223.52" y="132.08"/>
 <instance part="U3" gate="G$1" x="180.34" y="129.54"/>
-<instance part="R1" gate="G$1" x="160.02" y="76.2"/>
+<instance part="R1" gate="G$1" x="162.56" y="76.2"/>
 <instance part="R2" gate="G$1" x="78.74" y="88.9" smashed="yes">
 <attribute name="NAME" x="74.93" y="90.3986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="90.678" size="1.778" layer="96"/>
@@ -3301,23 +3301,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="BLU-C"/>
 <wire x1="172.72" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="78.74" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB7"/>
-<wire x1="154.94" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="78.74" x2="154.94" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PC6"/>
+<wire x1="154.94" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="RED-C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PC6"/>
+<wire x1="172.72" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3637,16 +3630,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="93.98" y1="129.54" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 <junction x="93.98" y="101.6"/>
-<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="124.46" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="109.22" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="106.68" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
-<junction x="66.04" y="109.22"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="109.22" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 <junction x="93.98" y="124.46"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<junction x="66.04" y="109.22"/>
+<junction x="93.98" y="109.22"/>
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
@@ -3825,9 +3819,31 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="256.54" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="76.2" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PB7"/>
+<wire x1="157.48" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,182.88,147.32,U3,VDD,+3V3,,,"/>
+<approved hash="104,1,172.72,111.76,U3,VSS,GND,,,"/>
+<approved hash="104,1,180.34,111.76,U3,VSS,GND,,,"/>
+<approved hash="104,1,185.42,111.76,U3,DVDD,N$19,,,"/>
+<approved hash="202,1,193.04,111.76,U3,XC2,,,,"/>
+<approved hash="104,1,203.2,129.54,U3,VDD_PA,N$24,,,"/>
+<approved hash="104,1,180.34,147.32,U3,VDD,+3V3,,,"/>
+<approved hash="104,1,177.8,147.32,U3,VDD,+3V3,,,"/>
+<approved hash="104,1,177.8,111.76,U3,VSS,GND,,,"/>
+<approved hash="104,1,175.26,111.76,U3,VSS,GND,,,"/>
+<approved hash="106,1,251.46,134.62,ANT,,,,,"/>
+<approved hash="115,1,139.596,107.846,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

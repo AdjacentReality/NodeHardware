@@ -2843,6 +2843,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="115,1,230.353,124.655,FTDI,,,,,"/>
+<approved hash="115,1,142.917,86.5547,GPIO,,,,,"/>
+<approved hash="115,1,160.697,86.5547,3V3,,,,,"/>
+<approved hash="115,1,178.477,86.5547,GND,,,,,"/>
+<approved hash="115,1,154.94,113.808,Q1,,,,,"/>
+<approved hash="115,1,180.34,113.808,Q2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

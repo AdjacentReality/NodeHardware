@@ -14,12 +14,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -121,12 +121,22 @@
 <wire x1="0" y1="0" x2="27.94" y2="0" width="0" layer="20"/>
 <wire x1="27.94" y1="27.94" x2="0" y2="27.94" width="0" layer="20"/>
 <wire x1="0" y1="27.94" x2="0" y2="0" width="0" layer="20"/>
-<text x="31.496" y="4.064" size="1.27" layer="22" font="vector" rot="SMR90">Adjacent Reality Tracker 0.2</text>
-<text x="27.94" y="33.02" size="1.27" layer="22" font="vector" rot="SMR0">Donald Cober</text>
-<text x="5.08" y="2.54" size="1.27" layer="22" font="vector" rot="SMR180">http://adjacentreality.org</text>
-<text x="31.75" y="35.56" size="1.27" layer="22" font="vector" rot="SMR0">Creative Commons BY-SA 3.0</text>
+<text x="22.76475" y="24.8285" size="0.8128" layer="22" font="vector" rot="SMR0">Adjacent Reality Tracker 0.3</text>
+<text x="27.305" y="0.47625" size="0.6096" layer="22" font="vector" rot="SMR0">With help from Donald Cober</text>
+<text x="21.59" y="23.495" size="0.8128" layer="22" font="vector" rot="SMR0">http://adjacentreality.org</text>
+<text x="27.305" y="2.69875" size="0.8128" layer="22" font="vector" rot="SMR0">CC BY 3.0</text>
 <wire x1="27.94" y1="0" x2="27.94" y2="27.94" width="0" layer="20"/>
-<text x="27.94" y="30.48" size="1.27" layer="22" rot="MR0">Nirav Patel</text>
+<text x="27.305" y="1.42875" size="0.8128" layer="22" rot="MR0">Nirav Patel</text>
+<wire x1="18.415" y1="19.3675" x2="19.3675" y2="20.32" width="0.6096" layer="21"/>
+<wire x1="19.3675" y1="20.32" x2="20.32" y2="19.3675" width="0.6096" layer="21"/>
+<wire x1="19.3675" y1="20.32" x2="19.3675" y2="15.39875" width="0.6096" layer="21"/>
+<wire x1="19.3675" y1="15.39875" x2="23.8125" y2="15.39875" width="0.6096" layer="21"/>
+<wire x1="23.8125" y1="15.39875" x2="22.86" y2="16.35125" width="0.6096" layer="21"/>
+<wire x1="23.8125" y1="15.39875" x2="22.86" y2="14.44625" width="0.6096" layer="21"/>
+<circle x="19.3675" y="15.39875" radius="0.85489375" width="0.4064" layer="21"/>
+<text x="20.16125" y="20.47875" size="1.778" layer="21">Y</text>
+<text x="23.97125" y="13.17625" size="1.778" layer="21">X</text>
+<text x="20.47875" y="13.17625" size="1.778" layer="21">Z</text>
 </plain>
 <libraries>
 <library name="adjacent-reality">
@@ -604,6 +614,18 @@ chip</description>
 <vertex x="13.2" y="-0.4271" curve="-180"/>
 </polygon>
 </package>
+<package name="ADJACENTREALITY-LOGO-0.35">
+<rectangle x1="-4.445" y1="-4.445" x2="4.445" y2="-3.175" layer="21"/>
+<rectangle x1="3.175" y1="-4.445" x2="4.445" y2="4.445" layer="21"/>
+<rectangle x1="-4.445" y1="3.175" x2="4.445" y2="4.445" layer="21"/>
+<rectangle x1="-4.445" y1="-4.445" x2="-3.175" y2="4.445" layer="21"/>
+<rectangle x1="-4.445" y1="1.905" x2="-1.905" y2="4.445" layer="21"/>
+<rectangle x1="1.905" y1="1.905" x2="4.445" y2="4.445" layer="21"/>
+<rectangle x1="-1.905" y1="0.635" x2="1.905" y2="1.905" layer="21"/>
+<rectangle x1="-0.635" y1="-4.445" x2="0.635" y2="1.905" layer="21"/>
+<rectangle x1="-4.445" y1="-1.905" x2="-1.905" y2="0.635" layer="21"/>
+<rectangle x1="1.905" y1="-1.905" x2="4.445" y2="0.635" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun">
@@ -714,6 +736,52 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
 <circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
 <hole x="0" y="0" drill="3.048"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="OSHW-LOGO-M">
+<polygon width="0.15" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -905,69 +973,191 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="adjacent-reality" package="QFN-44" value="ATMEGA32U4QFN" x="13.97" y="13.97" rot="R90"/>
+<element name="U1" library="adjacent-reality" package="QFN-44" value="ATMEGA32U4QFN" x="13.97" y="13.97" smashed="yes" rot="R90">
+<attribute name="VALUE" x="20.12" y="11.47" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="U4" library="adjacent-reality" package="LGA16-4X4" value="L3GD20" x="25.24125" y="6.82625"/>
 <element name="C1" library="SparkFun" package="0402-CAP" value="100nF" x="26.3525" y="21.2725"/>
-<element name="C2" library="SparkFun" package="0603-CAP" value="10uF" x="26.9875" y="18.7325" rot="R90"/>
+<element name="C2" library="SparkFun" package="0603-CAP" value="10uF" x="26.9875" y="18.7325" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.38425" y="16.73225" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="28.1305" y="17.7165" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
 <element name="C3" library="SparkFun" package="0603-CAP" value="4.7uF" x="23.33625" y="21.2725"/>
-<element name="C4" library="SparkFun" package="0402-CAP" value="0.22uF" x="26.3525" y="16.1925"/>
-<element name="C5" library="SparkFun" package="0402-CAP" value="10nF" x="27.14625" y="10.95375" rot="R90"/>
-<element name="C6" library="SparkFun" package="0402-CAP" value="100nF" x="25.87625" y="10.95375" rot="R90"/>
-<element name="C7" library="SparkFun" package="0603-CAP" value="10uF" x="24.28875" y="10.95375" rot="R90"/>
-<element name="X1" library="adjacent-reality" package="USB-MICROB-FCI" value="USB-FCI" x="13.97" y="1.45"/>
-<element name="C9" library="SparkFun" package="0603-CAP" value="10uF" x="7.62" y="5.08" rot="R270"/>
-<element name="C10" library="SparkFun" package="0402-CAP" value="1uF" x="16.35125" y="7.62" rot="R270"/>
-<element name="C11" library="SparkFun" package="0603-CAP" value="10uF" x="17.93875" y="7.62" rot="R270"/>
-<element name="LED2" library="adjacent-reality" package="0606" value="LED-TRICOLOR-5050LED-TRICOLOR-0606" x="13.97" y="26.3525" rot="R90"/>
-<element name="R5" library="SparkFun" package="0402-RES" value="220" x="15.875" y="26.3525" rot="R90"/>
-<element name="LED3" library="SparkFun" package="LED-0603" value="IR" x="12.065" y="26.3525" rot="R180"/>
+<element name="C4" library="SparkFun" package="0402-CAP" value="0.22uF" x="26.3525" y="16.1925" smashed="yes">
+<attribute name="NAME" x="24.1935" y="16.09725" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="25.273" y="15.0495" size="0.4064" layer="27"/>
+</element>
+<element name="C5" library="SparkFun" package="0402-CAP" value="10nF" x="27.14625" y="10.95375" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.71775" y="8.636" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="28.28925" y="9.87425" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="C6" library="SparkFun" package="0402-CAP" value="100nF" x="25.87625" y="10.95375" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.49525" y="12.60475" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="27.01925" y="9.87425" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="C7" library="SparkFun" package="0603-CAP" value="10uF" x="24.28875" y="10.95375" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.6855" y="12.60475" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="25.43175" y="9.93775" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="X1" library="adjacent-reality" package="USB-MICROB-FCI" value="USB-FCI" x="13.97" y="1.45" smashed="yes">
+<attribute name="VALUE" x="15.24" y="5.26" size="0.762" layer="27"/>
+</element>
+<element name="C9" library="SparkFun" package="0603-CAP" value="10uF" x="7.62" y="5.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="7.4295" y="7.39775" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="6.477" y="6.096" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="C10" library="SparkFun" package="0402-CAP" value="1uF" x="16.35125" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.256" y="6.12775" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="15.20825" y="8.6995" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="C11" library="SparkFun" package="0603-CAP" value="10uF" x="17.93875" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.74825" y="6.12775" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="16.79575" y="8.636" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="LED2" library="adjacent-reality" package="0606" value="LED-TRICOLOR-5050LED-TRICOLOR-0606" x="13.97" y="26.3525" smashed="yes" rot="R90"/>
+<element name="R5" library="SparkFun" package="0402-RES" value="220" x="15.875" y="26.3525" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.129" y="24.03475" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="17.018" y="25.273" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="LED3" library="SparkFun" package="LED-0603" value="IR" x="12.065" y="26.3525" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.96975" y="25.019" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="10.9855" y="27.3685" size="0.4064" layer="27" rot="R270"/>
+</element>
 <element name="R6" library="SparkFun" package="0402-RES" value="1k" x="10.795" y="26.3525" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.4935" y="25.49525" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="10.8585" y="24.7015" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="11.39825" y="27.432" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="R8" library="SparkFun" package="0402-RES" value="22" x="12.22375" y="7.62" rot="R90"/>
-<element name="R9" library="SparkFun" package="0402-RES" value="22" x="15.08125" y="7.62" rot="R90"/>
+<element name="R8" library="SparkFun" package="0402-RES" value="22" x="12.22375" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.47775" y="5.30225" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="13.36675" y="6.5405" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R9" library="SparkFun" package="0402-RES" value="22" x="15.08125" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.1765" y="5.30225" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="16.22425" y="6.5405" size="0.4064" layer="27" rot="R90"/>
+</element>
 <element name="C16" library="SparkFun" package="0402-CAP" value="100nF" x="19.685" y="12.52855"/>
-<element name="C17" library="SparkFun" package="0402-CAP" value="100nF" x="9.36625" y="15.97025" rot="R270"/>
-<element name="C18" library="SparkFun" package="0402-CAP" value="100nF" x="9.36625" y="12.065" rot="R270"/>
+<element name="C17" library="SparkFun" package="0402-CAP" value="100nF" x="9.36625" y="15.97025" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.06475" y="16.85925" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="8.22325" y="17.04975" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="C18" library="SparkFun" package="0402-CAP" value="100nF" x="9.36625" y="12.065" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.06475" y="12.954" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="8.22325" y="13.1445" size="0.4064" layer="27" rot="R270"/>
+</element>
 <element name="C19" library="SparkFun" package="0402-CAP" value="100nF" x="15.875" y="18.57375"/>
 <element name="POWER" library="adjacent-reality" package="KSS" value="KSS" x="23.876" y="2.1082"/>
 <element name="R2" library="SparkFun" package="0402-RES" value="10k" x="10.00125" y="7.14375"/>
-<element name="R16" library="SparkFun" package="0402-RES" value="4.7k" x="20.79625" y="7.62" rot="R90"/>
-<element name="R17" library="SparkFun" package="0402-RES" value="4.7k" x="22.06625" y="7.62" rot="R90"/>
-<element name="R18" library="SparkFun" package="0402-RES" value="10k" x="9.525" y="26.3525" rot="R90"/>
+<element name="R16" library="SparkFun" package="0402-RES" value="4.7k" x="20.79625" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.05025" y="4.98475" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="21.93925" y="6.5405" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R17" library="SparkFun" package="0402-RES" value="4.7k" x="22.06625" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.1615" y="4.98475" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="23.20925" y="6.5405" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R18" library="SparkFun" package="0402-RES" value="10k" x="9.525" y="26.3525" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.0965" y="23.876" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="10.668" y="25.273" size="0.4064" layer="27" rot="R90"/>
+</element>
 <element name="U9" library="adjacent-reality" package="SOT-666" value="RCLAMP0502A" x="13.6525" y="6.19125"/>
-<element name="LED1" library="SparkFun" package="LED-0603" value="RED" x="1.42875" y="10.63625" rot="R180"/>
+<element name="LED1" library="SparkFun" package="LED-0603" value="RED" x="1.42875" y="10.63625" smashed="yes" rot="R180">
+<attribute name="NAME" x="0.381" y="11.52525" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="0.34925" y="11.65225" size="0.4064" layer="27" rot="R270"/>
+</element>
 <element name="R20" library="SparkFun" package="0402-RES" value="1k" x="1.42875" y="7.9375" rot="R90"/>
-<element name="R10" library="SparkFun" package="0402-RES" value="100k" x="5.715" y="12.065" rot="R270"/>
-<element name="R11" library="SparkFun" package="0402-RES" value="100k" x="6.985" y="12.065" rot="R90"/>
-<element name="R1" library="SparkFun" package="0402-RES" value="7.5k" x="1.42875" y="4.92125" rot="R270"/>
-<element name="C13" library="SparkFun" package="0402-CAP" value="10pF" x="4.445" y="1.905" rot="R90"/>
-<element name="R19" library="SparkFun" package="0402-RES" value="2.05M" x="5.715" y="1.905" rot="R270"/>
-<element name="R21" library="SparkFun" package="0402-RES" value="649k" x="5.08" y="3.96875" rot="R180"/>
-<element name="C14" library="SparkFun" package="0603-CAP" value="10uF" x="7.62" y="1.905" rot="R90"/>
-<element name="C15" library="SparkFun" package="0402-CAP" value="2.2uF" x="3.175" y="12.065" rot="R90"/>
-<element name="C21" library="SparkFun" package="0402-CAP" value="10uF" x="4.445" y="12.065" rot="R90"/>
-<element name="C23" library="SparkFun" package="0402-CAP" value="1uF" x="3.175" y="14.76375" rot="R90"/>
+<element name="R10" library="SparkFun" package="0402-RES" value="100k" x="5.715" y="12.065" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.731" y="14.70025" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="4.572" y="13.1445" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="R11" library="SparkFun" package="0402-RES" value="100k" x="6.985" y="12.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.81025" y="13.716" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="8.128" y="10.9855" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R1" library="SparkFun" package="0402-RES" value="7.5k" x="1.42875" y="4.92125" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.12725" y="5.81025" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="0.28575" y="6.00075" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="C13" library="SparkFun" package="0402-CAP" value="10pF" x="4.445" y="1.905" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.85775" y="0.5715" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="5.588" y="0.8255" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R19" library="SparkFun" package="0402-RES" value="2.05M" x="5.715" y="1.905" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.1435" y="0.22225" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="4.572" y="2.9845" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="R21" library="SparkFun" package="0402-RES" value="649k" x="5.08" y="3.96875" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.6515" y="5.0165" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="6.1595" y="5.11175" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="C14" library="SparkFun" package="0603-CAP" value="10uF" x="7.62" y="1.905" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.0805" y="0.53975" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="8.763" y="0.889" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="C15" library="SparkFun" package="0402-CAP" value="2.2uF" x="3.175" y="12.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.286" y="10.89025" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="4.318" y="10.9855" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="C21" library="SparkFun" package="0402-CAP" value="10uF" x="4.445" y="12.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.699" y="13.716" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="5.588" y="10.9855" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="C23" library="SparkFun" package="0402-CAP" value="1uF" x="3.175" y="14.76375" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.22275" y="15.14475" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.318" y="13.68425" size="0.4064" layer="27" rot="R90"/>
+</element>
 <element name="U6" library="adjacent-reality" package="LGA14-3X5" value="LSM303DLHC" x="23.39975" y="18.7325" rot="R270"/>
-<element name="L1" library="adjacent-reality" package="VLS30" value="4.7uH" x="1.905" y="1.905" rot="R270"/>
+<element name="L1" library="adjacent-reality" package="VLS30" value="4.7uH" x="1.905" y="1.905" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.413" y="1.778" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="0.127" y="2.921" size="0.4064" layer="27" rot="R270" align="top-left"/>
+</element>
 <element name="U3" library="adjacent-reality" package="QFN20-3X3" value="LTC3553" x="3.96875" y="7.9375" rot="R180"/>
-<element name="HWB" library="SparkFun-Passives" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="9.68375" y="26.9875" rot="MR0"/>
+<element name="HWB" library="SparkFun-Passives" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="9.68375" y="26.9875" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.795" y="26.55575" size="0.4064" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="10.59175" y="25.3365" size="0.4064" layer="28" rot="MR0"/>
+</element>
 <element name="U2" library="adjacent-reality" package="QFN20-NOPAD" value="NRF24L01NOPAD" x="4.92125" y="18.7325" rot="R90"/>
-<element name="C8" library="SparkFun" package="0402-CAP" value="33nF" x="1.905" y="16.98625" rot="R270"/>
+<element name="C8" library="SparkFun" package="0402-CAP" value="33nF" x="1.905" y="16.98625" smashed="yes" rot="R270">
+<attribute name="NAME" x="1.016" y="16.28775" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="0.762" y="18.06575" size="0.4064" layer="27" rot="R270"/>
+</element>
 <element name="R3" library="SparkFun" package="0402-RES" value="22k" x="1.905" y="21.59"/>
-<element name="BAT" library="adjacent-reality" package="BATTCON_245MM_SLOT" value="LR2450" x="13.97" y="13.97" rot="MR0"/>
-<element name="Q1" library="adjacent-reality" package="PRQC" value="16MHz" x="9.68375" y="19.52625" rot="R90"/>
-<element name="R4" library="SparkFun" package="0402-RES" value="1M" x="8.09625" y="19.52625" rot="R90"/>
-<element name="J1" library="adjacent-reality" package="DF12A3.0-14DS" value="DF12A3.0-14DS" x="20.16125" y="25.0825"/>
-<element name="C22" library="SparkFun" package="0402-CAP" value="10nF" x="0.79375" y="19.3929" rot="R90"/>
-<element name="C24" library="SparkFun" package="0402-CAP" value="1nF" x="1.905" y="19.3929" rot="R90"/>
-<element name="C25" library="SparkFun" package="0402-CAP" value="2.2nF" x="7.14375" y="21.74875"/>
-<element name="C26" library="SparkFun" package="0402-CAP" value="4.7pF" x="7.14375" y="22.86"/>
-<element name="L2" library="adjacent-reality" package="C0402" value="3.9nH" x="3.96875" y="22.5425" rot="R90"/>
+<element name="BAT" library="adjacent-reality" package="BATTCON_245MM_SLOT" value="LR2450" x="13.97" y="13.97" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="23.495" y="13.335" size="0.4064" layer="28" rot="MR0"/>
+</element>
+<element name="Q1" library="adjacent-reality" package="PRQC" value="16MHz" x="9.68375" y="19.52625" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.00125" y="21.68525" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="10.69975" y="18.25625" size="0.6096" layer="27" font="vector" rot="R90" align="top-left"/>
+</element>
+<element name="R4" library="SparkFun" package="0402-RES" value="1M" x="8.09625" y="19.52625" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.1915" y="17.36725" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="9.23925" y="18.44675" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="J1" library="adjacent-reality" package="DF12A3.0-14DS" value="DF12A3.0-14DS" x="20.16125" y="25.0825" smashed="yes"/>
+<element name="C22" library="SparkFun" package="0402-CAP" value="10nF" x="0.79375" y="19.3929" smashed="yes" rot="R90">
+<attribute name="NAME" x="0.41275" y="16.75765" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="1.93675" y="18.3134" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="C24" library="SparkFun" package="0402-CAP" value="1nF" x="1.905" y="19.3929" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.2065" y="16.75765" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="3.048" y="18.3134" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="C25" library="SparkFun" package="0402-CAP" value="2.2nF" x="7.14375" y="21.74875" smashed="yes">
+<attribute name="NAME" x="8.79475" y="21.971" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="6.06425" y="20.60575" size="0.4064" layer="27"/>
+</element>
+<element name="C26" library="SparkFun" package="0402-CAP" value="4.7pF" x="7.14375" y="22.86" smashed="yes">
+<attribute name="NAME" x="8.79475" y="23.241" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="6.06425" y="21.717" size="0.4064" layer="27"/>
+</element>
+<element name="L2" library="adjacent-reality" package="C0402" value="3.9nH" x="3.96875" y="22.5425" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.27025" y="22.2885" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="5.11175" y="21.463" size="0.4064" layer="27" rot="R90"/>
+</element>
 <element name="U7" library="adjacent-reality" package="BD2425NNRF" value="BD2425NNRF0404" x="5.1689" y="21.844"/>
 <element name="RF" library="adjacent-reality" package="MOLEX2.4SMD" value="ANTENNA2MOLEX" x="3.01625" y="25.87625"/>
 <element name="U$1" library="SparkFun-Electromechanical" package="STAND-OFF-TIGHT" value="" x="25.87625" y="25.87625"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="2.8575" y="2.8575" rot="MR0"/>
+<element name="U$3" library="adjacent-reality" package="ADJACENTREALITY-LOGO-0.35" value="" x="6.985" y="13.97" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$3">
@@ -1059,16 +1249,16 @@ design rules under a new name.</description>
 <wire x1="1.905" y1="20.0025" x2="1.905" y2="20.0429" width="0.2032" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.3048" orphans="yes">
 <vertex x="0" y="22.06625"/>
-<vertex x="6.19125" y="22.06625"/>
-<vertex x="6.19125" y="27.94"/>
+<vertex x="6.985" y="22.06625"/>
+<vertex x="6.985" y="27.94"/>
 <vertex x="27.94" y="27.94"/>
 <vertex x="27.94" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.3048" orphans="yes">
 <vertex x="0" y="22.06625"/>
-<vertex x="6.19125" y="22.06625"/>
-<vertex x="6.19125" y="27.94"/>
+<vertex x="6.985" y="22.06625"/>
+<vertex x="6.985" y="27.94"/>
 <vertex x="27.94" y="27.94"/>
 <vertex x="27.94" y="0"/>
 <vertex x="0" y="0"/>
@@ -1142,7 +1332,7 @@ design rules under a new name.</description>
 <wire x1="25.87625" y1="11.60375" x2="25.67625" y2="11.80375" width="0.254" layer="1"/>
 <wire x1="25.67625" y1="11.80375" x2="24.28875" y2="11.80375" width="0.254" layer="1"/>
 <via x="24.92375" y="12.85875" extent="1-16" drill="0.3"/>
-<wire x1="16.51" y1="16.03375" x2="14.44625" y2="13.97" width="0.254" layer="16"/>
+<wire x1="16.51" y1="16.03375" x2="14.44625" y2="13.97" width="0.4064" layer="16"/>
 <wire x1="14.44625" y1="13.97" x2="13.97" y2="13.97" width="0.254" layer="16"/>
 <via x="15.875" y="13.17625" extent="1-16" drill="0.3"/>
 <wire x1="15.875" y1="13.17625" x2="15.08125" y2="13.97" width="0.254" layer="16"/>

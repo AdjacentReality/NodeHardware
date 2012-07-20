@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -24,7 +24,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -249,26 +249,26 @@
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.0762" layer="51"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.0762" layer="51"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.0762" layer="51"/>
-<smd name="16" x="1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="15" x="1.9" y="1" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="14" x="1.9" y="0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="13" x="1.9" y="0" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="12" x="1.9" y="-0.5" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="11" x="1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="10" x="1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="9" x="0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="8" x="0" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="7" x="-0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="6" x="-1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="5" x="-1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180" cream="no"/>
-<smd name="4" x="-1.9" y="-0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="3" x="-1.9" y="0" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="2" x="-1.9" y="0.5" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="1" x="-1.9" y="1" dx="0.65" dy="0.3" layer="1" cream="no"/>
-<smd name="17" x="0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R270" cream="no"/>
-<smd name="18" x="0" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="19" x="-0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="20" x="-1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="16" x="1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="1.9" y="1" dx="0.65" dy="0.3" layer="1"/>
+<smd name="14" x="1.9" y="0.5" dx="0.65" dy="0.3" layer="1"/>
+<smd name="13" x="1.9" y="0" dx="0.65" dy="0.3" layer="1"/>
+<smd name="12" x="1.9" y="-0.5" dx="0.65" dy="0.3" layer="1" rot="R180"/>
+<smd name="11" x="1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270"/>
+<smd name="7" x="-0.5" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270"/>
+<smd name="6" x="-1" y="-1.9" dx="0.65" dy="0.3" layer="1" rot="R270"/>
+<smd name="5" x="-1.9" y="-1" dx="0.65" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-1.9" y="-0.5" dx="0.65" dy="0.3" layer="1"/>
+<smd name="3" x="-1.9" y="0" dx="0.65" dy="0.3" layer="1"/>
+<smd name="2" x="-1.9" y="0.5" dx="0.65" dy="0.3" layer="1"/>
+<smd name="1" x="-1.9" y="1" dx="0.65" dy="0.3" layer="1"/>
+<smd name="17" x="0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R270"/>
+<smd name="18" x="0" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="-0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="-1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90"/>
 <text x="-1.27" y="0.889" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
@@ -575,7 +575,7 @@ design rules under a new name.</description>
 <param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="11mil"/>
+<param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -1368,6 +1368,46 @@ design rules under a new name.</description>
 <approved hash="3,16,2dd2d84ad8492dd1"/>
 <approved hash="3,1,23d55c4d5c4f23d7"/>
 <approved hash="3,1,2dd2d84ad8492dd1"/>
+<approved hash="1,20,24c83b1c3af62522"/>
+<approved hash="1,20,5bb30a070a835b37"/>
+<approved hash="1,20,ec781e0c1eb3ecc7"/>
+<approved hash="1,20,75b5060106877533"/>
+<approved hash="1,20,f678000c008af6fe"/>
+<approved hash="1,20,f9fa060e0687f973"/>
+<approved hash="1,20,8dd81c0c1f898e5d"/>
+<approved hash="1,20,06d21a061af00624"/>
+<approved hash="1,20,5c500e040fba5dee"/>
+<approved hash="1,20,2e901a241a9e2e2a"/>
+<approved hash="1,20,4bba240e26954921"/>
+<approved hash="1,20,d3fa0c0e0f8bd07f"/>
+<approved hash="1,20,f7bf040b0404f7b0"/>
+<approved hash="1,20,54dc0008028b565f"/>
+<approved hash="1,20,3c1003e402b63d42"/>
+<approved hash="1,20,5f0a0bfe0a905e64"/>
+<approved hash="1,20,c3d00c040d92c246"/>
+<approved hash="1,20,d7dc04080a90d944"/>
+<approved hash="1,20,164c0038009f16eb"/>
+<approved hash="1,20,3c500a040b8a3dde"/>
+<approved hash="1,20,3cdc080806963242"/>
+<approved hash="1,20,37d03c043d8b365f"/>
+<approved hash="1,20,c6be7a0a7a8fc63b"/>
+<approved hash="1,20,2dd0e404e5882c5c"/>
+<approved hash="1,20,4c4c3a1834b942ed"/>
+<approved hash="1,20,445a060e08964ac2"/>
+<approved hash="1,20,beec051805f8be0c"/>
+<approved hash="1,20,ecc8187c1b9aef2e"/>
+<approved hash="1,20,744d0219027b742f"/>
+<approved hash="1,20,fcb508010a81fe35"/>
+<approved hash="1,20,ccb018041889cc3d"/>
+<approved hash="1,20,74bc00081e886a3c"/>
+<approved hash="1,20,47591f0d1f0b475f"/>
+<approved hash="1,20,c54879fc7a87c633"/>
+<approved hash="1,20,3cdc080806973243"/>
+<approved hash="1,20,ccb87d0c7d08ccbc"/>
+<approved hash="1,20,4db47c007e804f34"/>
+<approved hash="1,20,2cd0180418632cb7"/>
+<approved hash="1,20,19d60a020a801954"/>
+<approved hash="1,20,6c5e3e0a3e0a6c5e"/>
 <approved hash="7,39,dd679a271a275d67"/>
 <approved hash="7,39,84e242a2c2a204e2"/>
 <approved hash="7,39,728d34cdb4cdf28d"/>
